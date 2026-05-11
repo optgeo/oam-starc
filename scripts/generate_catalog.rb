@@ -230,7 +230,7 @@ def provider_for(record)
   if value.is_a?(Hash)
     candidate = value['name'] || value['title'] || value['id']
     return candidate if candidate.is_a?(String)
-    return candidate.to_s if candidate.is_a?(Numeric)
+    return candidate if candidate.is_a?(Numeric) || candidate == true || candidate == false
   end
 
   value
@@ -243,11 +243,11 @@ end
 def uploaded_at_for(record)
   raw = record['uploaded_at'] || record.dig('properties', 'uploaded_at')
   return nil if raw.nil? || raw.to_s.strip.empty?
-  normalized = raw.to_s
+  raw_string = raw.to_s
 
-  Time.parse(normalized).utc.iso8601
+  Time.parse(raw_string).utc.iso8601
 rescue ArgumentError
-  normalized
+  raw_string
 end
 
 def license_for(record)
