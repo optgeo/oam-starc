@@ -352,6 +352,8 @@ def item_from(record)
 
   # Only include start_datetime/end_datetime when a full range is available.
   # Per STAC spec, both fields must be present together when used.
+  # `dt` is the acquisition start (or best available single datetime), which
+  # doubles as start_datetime when end_datetime is also known.
   start_dt = end_dt ? dt : nil
 
   properties = {
