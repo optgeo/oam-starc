@@ -41,7 +41,7 @@ ruby scripts/generate_catalog.rb
 ## 運用
 
 - GitHub Actions: `.github/workflows/update-catalog.yml`
-- 6時間ごと + 手動実行で catalog を再生成
+- 6時間ごと + 手動実行で Catalog を再生成
 - `docs/catalog.json` に差分がある場合のみ自動 commit
 - GitHub Pages で `docs/` を公開して配布
 
