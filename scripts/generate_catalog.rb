@@ -82,7 +82,7 @@ def item_from(record)
   return nil unless coordinates
 
   lon, lat = coordinates
-  id = record['uuid'] || record['id'] || record['_id'] || record['slug'] || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, 12]}"
+  id = record['uuid'] || record['id'] || record['_id'] || record['slug'] || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, 16]}"
 
   item = {
     'type' => 'Feature',
