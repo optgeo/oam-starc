@@ -7,12 +7,18 @@ require 'time'
 require 'uri'
 require 'digest'
 
+def positive_integer_or_nil(value)
+  integer = Integer(value)
+  integer.positive? ? integer : nil
+rescue StandardError
+  nil
+end
+
 API_URL = ENV.fetch('OAM_METADATA_API_URL', 'https://api.openaerialmap.org/meta')
 OUTPUT_PATH = ENV.fetch('STARC_OUTPUT_PATH', File.expand_path('../docs/catalog.json', __dir__))
 CATALOG_URL = ENV.fetch('STARC_CATALOG_URL', 'https://optgeo.github.io/oam-starc/catalog.json')
-raw_api_limit = ENV.fetch('OAM_METADATA_API_LIMIT', '100')
-parsed_api_limit = raw_api_limit.to_i
-API_LIMIT = parsed_api_limit.positive? ? parsed_api_limit : 100
+API_LIMIT = positive_integer_or_nil(ENV['OAM_METADATA_API_LIMIT']) || 100
+FALLBACK_ID_HASH_LENGTH = 16
 
 
 def fetch_payload(url, page:, limit:)
@@ -37,13 +43,6 @@ def records_from(payload)
   return payload['results'] if payload.is_a?(Hash) && payload['results'].is_a?(Array)
 
   []
-end
-
-def positive_integer_or_nil(value)
-  integer = Integer(value)
-  integer.positive? ? integer : nil
-rescue StandardError
-  nil
 end
 
 def metadata_from(payload)
@@ -75,9 +74,9 @@ def fetch_all_records(url, limit:)
     records.concat(page_records)
     puts "Fetched page #{log_page}: #{page_records.length} records (accumulated #{records.length})"
 
-    break if page_records.empty?
-    break if total_pages && page >= total_pages
-    break if total_pages.nil? && page_records.length < response_limit
+    reached_last_page = total_pages && page >= total_pages
+    reached_partial_page = total_pages.nil? && page_records.length < response_limit
+    break if page_records.empty? || reached_last_page || reached_partial_page
 
     page += 1
   end
@@ -225,7 +224,7 @@ def item_from(record)
   return nil unless coordinates
 
   lon, lat = coordinates
-  id = stable_record_id(record) || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, 16]}"
+  id = stable_record_id(record) || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, FALLBACK_ID_HASH_LENGTH]}"
 
   item = {
     'type' => 'Feature',
