@@ -23,9 +23,9 @@ HASH_ID_LENGTH = 16
 
 def fetch_payload(url, page:, limit:)
   uri = URI(url)
-  query = URI.decode_www_form(uri.query.to_s).to_h
-  query['page'] = page.to_s
-  query['limit'] = limit.to_s
+  query = URI.decode_www_form(uri.query.to_s).reject { |key, _value| key == 'page' || key == 'limit' }
+  query << ['page', page.to_s]
+  query << ['limit', limit.to_s]
   uri.query = URI.encode_www_form(query)
 
   puts "Fetching page #{page} with limit #{limit}"
@@ -34,7 +34,7 @@ def fetch_payload(url, page:, limit:)
 
   JSON.parse(response.body)
 rescue JSON::ParserError => e
-  raise e.class, "Failed to parse metadata API response for page #{page}: #{e.message}", e.backtrace
+  raise "Failed to parse metadata API response for page #{page}: #{e.message}", cause: e
 end
 
 def records_from(payload)
@@ -75,7 +75,7 @@ def fetch_all_records(url, limit:)
     puts "Fetched page #{log_page}: #{page_records.length} records (accumulated #{records.length})"
 
     reached_last_page = total_pages && page >= total_pages
-    reached_partial_page = !page_records.empty? && page_records.length < response_limit
+    reached_partial_page = total_pages.nil? && !page_records.empty? && page_records.length < response_limit
     break if page_records.empty? || reached_last_page || reached_partial_page
 
     page += 1
