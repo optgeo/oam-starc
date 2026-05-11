@@ -34,6 +34,58 @@ rescue StandardError
   nil
 end
 
+def coordinates_from_bbox(bbox)
+  return nil unless bbox.is_a?(Array) && bbox.size >= 4
+
+  min_lon = float_or_nil(bbox[0])
+  min_lat = float_or_nil(bbox[1])
+  max_lon = float_or_nil(bbox[2])
+  max_lat = float_or_nil(bbox[3])
+  return nil unless min_lon && min_lat && max_lon && max_lat
+
+  [
+    (min_lon + max_lon) / 2.0,
+    (min_lat + max_lat) / 2.0
+  ]
+end
+
+def coordinates_from_geojson(geojson)
+  return nil unless geojson.is_a?(Hash)
+
+  type = geojson['type']
+  coordinates = geojson['coordinates']
+
+  case type
+  when 'Point'
+    return nil unless coordinates.is_a?(Array) && coordinates.size >= 2
+
+    lon = float_or_nil(coordinates[0])
+    lat = float_or_nil(coordinates[1])
+    return [lon, lat] if lon && lat
+  when 'Polygon'
+    ring = coordinates&.first
+    return nil unless ring.is_a?(Array) && !ring.empty?
+
+    points = ring.filter_map do |point|
+      next unless point.is_a?(Array) && point.size >= 2
+
+      lon = float_or_nil(point[0])
+      lat = float_or_nil(point[1])
+      [lon, lat] if lon && lat
+    end
+    return nil if points.empty?
+
+    lons = points.map(&:first)
+    lats = points.map(&:last)
+    return [
+      (lons.min + lons.max) / 2.0,
+      (lats.min + lats.max) / 2.0
+    ]
+  end
+
+  nil
+end
+
 def center_point(record)
   center = record['center']
   if center.is_a?(Hash)
@@ -57,7 +109,7 @@ def center_point(record)
   lat = float_or_nil(record['lat'] || record['latitude'])
   return [lon, lat] if lon && lat
 
-  nil
+  coordinates_from_bbox(record['bbox']) || coordinates_from_geojson(record['geojson'])
 end
 
 def metadata_href(record)
@@ -65,6 +117,9 @@ def metadata_href(record)
 end
 
 def imagery_href(record)
+  properties = record['properties']
+  return properties['tms'] if properties.is_a?(Hash) && properties['tms']
+
   record['url'] || record['image'] || record['imagery'] || record['tms'] || record['tile_url']
 end
 
