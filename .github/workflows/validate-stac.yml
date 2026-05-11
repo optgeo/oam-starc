@@ -1,0 +1,37 @@
+name: validate-stac
+
+on:
+  push:
+    paths:
+      - 'docs/catalog.json'
+      - 'scripts/generate_catalog.rb'
+      - 'scripts/validate_catalog.py'
+      - '.github/workflows/validate-stac.yml'
+  pull_request:
+    paths:
+      - 'docs/catalog.json'
+      - 'scripts/generate_catalog.rb'
+      - 'scripts/validate_catalog.py'
+      - '.github/workflows/validate-stac.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install stac-validator
+        run: pip install stac-validator
+
+      - name: Validate STAC items
+        run: python scripts/validate_catalog.py docs/catalog.json
