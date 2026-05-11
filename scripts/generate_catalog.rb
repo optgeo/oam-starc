@@ -349,6 +349,8 @@ def item_from(record)
   # Compute datetimes once and reuse
   dt = datetime_for(record)
   end_dt = end_datetime_for(record)
+  description = record['description']
+  description = nil if description.is_a?(String) && description.strip.empty?
 
   # Only include start_datetime/end_datetime when a full range is available.
   # Per STAC spec, both fields must be present together when used.
@@ -362,7 +364,7 @@ def item_from(record)
     'end_datetime' => end_dt,
     'updated' => uploaded_at_for(record),
     'title' => record['title'] || record['name'],
-    'description' => record['description'],
+    'description' => description,
     'platform' => platform_for(record),
     'provider' => provider_for(record),
     'license' => license_for(record),
