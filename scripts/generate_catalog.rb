@@ -11,7 +11,8 @@ API_URL = ENV.fetch('OAM_METADATA_API_URL', 'https://api.openaerialmap.org/meta'
 OUTPUT_PATH = ENV.fetch('STARC_OUTPUT_PATH', File.expand_path('../docs/catalog.json', __dir__))
 CATALOG_URL = ENV.fetch('STARC_CATALOG_URL', 'https://optgeo.github.io/oam-starc/catalog.json')
 raw_api_limit = ENV.fetch('OAM_METADATA_API_LIMIT', '100')
-API_LIMIT = raw_api_limit.to_i.positive? ? raw_api_limit.to_i : 100
+parsed_api_limit = raw_api_limit.to_i
+API_LIMIT = parsed_api_limit.positive? ? parsed_api_limit : 100
 
 
 def fetch_payload(url, page:, limit:)
@@ -76,7 +77,7 @@ def fetch_all_records(url, limit:)
 
     break if page_records.empty?
     break if total_pages && page >= total_pages
-    break if !total_pages && page_records.length < response_limit
+    break if total_pages.nil? && page_records.length < response_limit
 
     page += 1
   end
