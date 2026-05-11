@@ -32,9 +32,12 @@ OAM (OpenAerialMap) の STARC (SpatioTemporal Asset Resource Catalog) を生成�
 ruby scripts/generate_catalog.rb
 ```
 
+`/meta` API は pagination されるため、generator は `page` / `limit` を使って全ページを取得してから `docs/catalog.json` を生成します。
+
 必要に応じて環境変数で上書きできます。
 
 - `OAM_METADATA_API_URL` (default: `https://api.openaerialmap.org/meta`)
+- `OAM_METADATA_API_LIMIT` (default: `100`)
 - `STARC_OUTPUT_PATH` (default: `docs/catalog.json`)
 - `STARC_CATALOG_URL` (default: `https://optgeo.github.io/oam-starc/catalog.json`)
 
