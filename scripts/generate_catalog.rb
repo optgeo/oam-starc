@@ -208,6 +208,13 @@ def imagery_href(record)
   record['url'] || record['image'] || record['imagery'] || record['tms'] || record['tile_url']
 end
 
+def thumbnail_href(record)
+  properties = record['properties']
+  return properties['thumbnail'] if properties.is_a?(Hash) && properties['thumbnail']
+
+  record['thumbnail'] || record['thumbnail_url'] || record['preview']
+end
+
 def datetime_for(record)
   raw = record['acquisition_start'] || record['capture_date'] || record['created_at'] || record['timestamp']
   return nil if raw.nil? || raw.to_s.strip.empty?
@@ -215,6 +222,36 @@ def datetime_for(record)
   Time.parse(raw.to_s).utc.iso8601
 rescue ArgumentError
   nil
+end
+
+def provider_for(record)
+  value = record['provider'] || record.dig('properties', 'provider')
+  return nil if value.nil?
+  if value.is_a?(Hash)
+    candidate = value['name'] || value['title'] || value['id']
+    return candidate if candidate.is_a?(String)
+    return candidate if candidate.is_a?(Numeric) || candidate == true || candidate == false
+  end
+
+  value
+end
+
+def platform_for(record)
+  record['platform'] || record.dig('properties', 'platform')
+end
+
+def uploaded_at_for(record)
+  raw = record['uploaded_at'] || record.dig('properties', 'uploaded_at')
+  return nil if raw.nil? || raw.to_s.strip.empty?
+  raw_string = raw.to_s
+
+  Time.parse(raw_string).utc.iso8601
+rescue ArgumentError
+  raw_string
+end
+
+def license_for(record)
+  record['license'] || record.dig('properties', 'license')
 end
 
 def item_from(record)
@@ -239,7 +276,11 @@ def item_from(record)
     'properties' => {
       'title' => record['title'] || record['name'],
       'description' => record['description'],
-      'datetime' => datetime_for(record)
+      'datetime' => datetime_for(record),
+      'provider' => provider_for(record),
+      'platform' => platform_for(record),
+      'uploaded_at' => uploaded_at_for(record),
+      'license' => license_for(record)
     },
     'assets' => {}
   }
@@ -254,6 +295,11 @@ def item_from(record)
     'href' => imagery_href(record),
     'title' => 'OpenAerialMap imagery'
   } if imagery_href(record)
+
+  item['assets']['thumbnail'] = {
+    'href' => thumbnail_href(record),
+    'title' => 'OpenAerialMap thumbnail'
+  } if thumbnail_href(record)
 
   item['links'] = [
     {
