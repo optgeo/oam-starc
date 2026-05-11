@@ -5,6 +5,7 @@ require 'json'
 require 'net/http'
 require 'time'
 require 'uri'
+require 'digest'
 
 API_URL = ENV.fetch('OAM_METADATA_API_URL', 'https://api.openaerialmap.org/meta')
 OUTPUT_PATH = ENV.fetch('STARC_OUTPUT_PATH', File.expand_path('../docs/catalog.json', __dir__))
@@ -81,7 +82,7 @@ def item_from(record)
   return nil unless coordinates
 
   lon, lat = coordinates
-  id = record['uuid'] || record['id'] || record['_id'] || record['slug'] || "record-#{lon}-#{lat}"
+  id = record['uuid'] || record['id'] || record['_id'] || record['slug'] || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, 12]}"
 
   item = {
     'type' => 'Feature',
