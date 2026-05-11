@@ -10,7 +10,7 @@ require 'digest'
 def positive_integer_or_nil(value)
   integer = Integer(value)
   integer.positive? ? integer : nil
-rescue StandardError
+rescue ArgumentError, TypeError
   nil
 end
 
@@ -34,7 +34,7 @@ def fetch_payload(url, page:, limit:)
 
   JSON.parse(response.body)
 rescue JSON::ParserError => e
-  raise "Failed to parse metadata API response for page #{page}: #{e.message}"
+  raise e.class, "Failed to parse metadata API response for page #{page}: #{e.message}", e.backtrace
 end
 
 def records_from(payload)
@@ -172,6 +172,8 @@ def coordinates_from_geojson(geojson)
 end
 
 def center_point(record)
+  return nil unless record.is_a?(Hash)
+
   center = record['center']
   if center.is_a?(Hash)
     lon = float_or_nil(center['lon'] || center['lng'] || center['longitude'])
@@ -218,8 +220,6 @@ rescue ArgumentError
 end
 
 def item_from(record)
-  return nil unless record.is_a?(Hash)
-
   coordinates = center_point(record)
   return nil unless coordinates
 
