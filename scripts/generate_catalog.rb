@@ -217,6 +217,27 @@ rescue ArgumentError
   nil
 end
 
+def provider_for(record)
+  value = record['provider'] || record.dig('properties', 'provider')
+  return nil if value.nil?
+  return value['name'] || value['title'] || value['id'] if value.is_a?(Hash)
+
+  value
+end
+
+def platform_for(record)
+  record['platform'] || record.dig('properties', 'platform')
+end
+
+def uploaded_at_for(record)
+  raw = record['uploaded_at'] || record.dig('properties', 'uploaded_at')
+  return nil if raw.nil? || raw.to_s.strip.empty?
+
+  Time.parse(raw.to_s).utc.iso8601
+rescue ArgumentError
+  raw.to_s
+end
+
 def item_from(record)
   return nil unless record.is_a?(Hash)
 
@@ -239,7 +260,10 @@ def item_from(record)
     'properties' => {
       'title' => record['title'] || record['name'],
       'description' => record['description'],
-      'datetime' => datetime_for(record)
+      'datetime' => datetime_for(record),
+      'provider' => provider_for(record),
+      'platform' => platform_for(record),
+      'uploaded_at' => uploaded_at_for(record)
     },
     'assets' => {}
   }

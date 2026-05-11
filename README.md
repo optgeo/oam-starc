@@ -23,6 +23,7 @@ OAM (OpenAerialMap) の STARC (SpatioTemporal Asset Resource Catalog) を生成�
   - geometry は center point (`Point`)
   - bbox は point から算出
   - assets に metadata / imagery へのリンクを設定
+  - `properties` に `provider` / `platform` / `uploaded_at` を保持
 
 ## 実装
 
@@ -40,6 +41,13 @@ ruby scripts/generate_catalog.rb
 - `OAM_METADATA_API_LIMIT` (default: `100`)
 - `STARC_OUTPUT_PATH` (default: `docs/catalog.json`)
 - `STARC_CATALOG_URL` (default: `https://optgeo.github.io/oam-starc/catalog.json`)
+
+### provider / platform / uploaded_at の配置方針
+
+- 3項目は Item ごとに意味を持つため、Catalog 直下ではなく各 Item の `properties` に配置。
+- `platform` は STAC Item の文脈でも自然な属性のため、キー名をそのまま維持。
+- `provider` と `uploaded_at` は OAM 依存の実務属性として、取得元 API の語彙を崩さずに保持。
+- `uploaded_at` は日時として解釈可能な場合は UTC ISO8601 に正規化し、解釈不能な値は欠落させず文字列として保持。
 
 ## 運用
 
