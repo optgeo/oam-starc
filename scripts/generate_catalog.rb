@@ -7,6 +7,8 @@ require 'time'
 require 'uri'
 require 'digest'
 
+EO_EXTENSION_URL = 'https://stac-extensions.github.io/eo/v1.0.0/schema.json'
+
 def positive_integer_or_nil(value)
   integer = Integer(value)
   integer.positive? ? integer : nil
@@ -224,6 +226,83 @@ rescue ArgumentError
   nil
 end
 
+def end_datetime_for(record)
+  raw = record['acquisition_end']
+  return nil if raw.nil? || raw.to_s.strip.empty?
+
+  Time.parse(raw.to_s).utc.iso8601
+rescue ArgumentError
+  nil
+end
+
+def gsd_for(record)
+  value = record['gsd'] || record.dig('properties', 'gsd')
+  float_or_nil(value)
+end
+
+def bands_for(record)
+  bands = record.dig('properties', 'bands') || record['bands']
+  return nil unless bands.is_a?(Array) && !bands.empty?
+
+  bands.filter_map do |band|
+    next unless band.is_a?(Hash)
+
+    result = {}
+    result['name'] = band['name'].to_s if band['name']
+    result['common_name'] = band['common_name'].to_s if band['common_name']
+    result['description'] = band['description'].to_s if band['description']
+    result unless result.empty?
+  end.then { |b| b.empty? ? nil : b }
+end
+
+def imagery_media_type(href)
+  return nil unless href
+
+  if href.match?(/\{z\}.*\{x\}.*\{y\}/i)
+    'image/png'
+  elsif href.match?(/\.tiff?(\?|$)/i)
+    'image/tiff; application=geotiff; profile=cloud-optimized'
+  elsif href.match?(/\.png(\?|$)/i)
+    'image/png'
+  elsif href.match?(/\.jpe?g(\?|$)/i)
+    'image/jpeg'
+  end
+end
+
+def imagery_roles(href)
+  return ['data'] unless href
+
+  if href.match?(/\{z\}.*\{x\}.*\{y\}/i)
+    ['overview']
+  else
+    ['ortho', 'data']
+  end
+end
+
+def thumbnail_media_type(href)
+  return nil unless href
+
+  if href.match?(/\.png(\?|$)/i)
+    'image/png'
+  else
+    'image/jpeg'
+  end
+end
+
+def stac_extensions_for(record)
+  extensions = []
+  bands = bands_for(record)
+  extensions << EO_EXTENSION_URL if bands && !bands.empty?
+  extensions
+end
+
+def compact_properties(props)
+  # Remove nil values from all properties except 'datetime'.
+  # Per STAC spec, 'datetime' MUST be present (it may be null only when both
+  # 'start_datetime' and 'end_datetime' are also present).
+  props.reject { |k, v| v.nil? && k != 'datetime' }
+end
+
 def provider_for(record)
   value = record['provider'] || record.dig('properties', 'provider')
   return nil if value.nil?
@@ -263,43 +342,77 @@ def item_from(record)
   lon, lat = coordinates
   id = stable_record_id(record) || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, HASH_ID_LENGTH]}"
 
+  bands = bands_for(record)
+  gsd = gsd_for(record)
+  extensions = stac_extensions_for(record)
+
+  # Compute datetimes once and reuse
+  dt = datetime_for(record)
+  end_dt = end_datetime_for(record)
+
+  # Only include start_datetime/end_datetime when a full range is available.
+  # Per STAC spec, both fields must be present together when used.
+  start_dt = end_dt ? dt : nil
+
+  properties = {
+    'datetime' => dt,
+    'start_datetime' => start_dt,
+    'end_datetime' => end_dt,
+    'updated' => uploaded_at_for(record),
+    'title' => record['title'] || record['name'],
+    'description' => record['description'],
+    'platform' => platform_for(record),
+    'provider' => provider_for(record),
+    'license' => license_for(record),
+    'gsd' => gsd
+  }
+  properties['eo:bands'] = bands if bands && !bands.empty?
+
   item = {
     'type' => 'Feature',
     'stac_version' => '1.0.0',
-    'stac_extensions' => [],
+    'stac_extensions' => extensions,
     'id' => id.to_s,
     'geometry' => {
       'type' => 'Point',
       'coordinates' => [lon, lat]
     },
     'bbox' => [lon, lat, lon, lat],
-    'properties' => {
-      'title' => record['title'] || record['name'],
-      'description' => record['description'],
-      'datetime' => datetime_for(record),
-      'provider' => provider_for(record),
-      'platform' => platform_for(record),
-      'uploaded_at' => uploaded_at_for(record),
-      'license' => license_for(record)
-    },
+    'properties' => compact_properties(properties),
     'assets' => {}
   }
 
+  meta_href = metadata_href(record)
   item['assets']['metadata'] = {
-    'href' => metadata_href(record),
+    'href' => meta_href,
     'type' => 'application/json',
-    'title' => 'OpenAerialMap metadata'
-  } if metadata_href(record)
+    'title' => 'OpenAerialMap metadata',
+    'roles' => ['metadata']
+  } if meta_href
 
-  item['assets']['imagery'] = {
-    'href' => imagery_href(record),
-    'title' => 'OpenAerialMap imagery'
-  } if imagery_href(record)
+  img_href = imagery_href(record)
+  if img_href
+    img_asset = {
+      'href' => img_href,
+      'title' => 'OpenAerialMap imagery',
+      'roles' => imagery_roles(img_href)
+    }
+    img_type = imagery_media_type(img_href)
+    img_asset['type'] = img_type if img_type
+    item['assets']['imagery'] = img_asset
+  end
 
-  item['assets']['thumbnail'] = {
-    'href' => thumbnail_href(record),
-    'title' => 'OpenAerialMap thumbnail'
-  } if thumbnail_href(record)
+  thumb_href = thumbnail_href(record)
+  if thumb_href
+    thumb_asset = {
+      'href' => thumb_href,
+      'title' => 'OpenAerialMap thumbnail',
+      'roles' => ['thumbnail']
+    }
+    thumb_type = thumbnail_media_type(thumb_href)
+    thumb_asset['type'] = thumb_type if thumb_type
+    item['assets']['thumbnail'] = thumb_asset
+  end
 
   item['links'] = [
     {
