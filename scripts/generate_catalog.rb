@@ -23,7 +23,7 @@ HASH_ID_LENGTH = 16
 
 def fetch_payload(url, page:, limit:)
   uri = URI(url)
-  query = URI.decode_www_form(uri.query.to_s).reject { |key, _value| key == 'page' || key == 'limit' }
+  query = URI.decode_www_form(uri.query.to_s).reject { |key, _| key == 'page' || key == 'limit' }
   query << ['page', page.to_s]
   query << ['limit', limit.to_s]
   uri.query = URI.encode_www_form(query)
@@ -34,7 +34,7 @@ def fetch_payload(url, page:, limit:)
 
   JSON.parse(response.body)
 rescue JSON::ParserError => e
-  raise "Failed to parse metadata API response for page #{page}: #{e.message}", cause: e
+  raise e.class, "Failed to parse metadata API response for page #{page}: #{e.message}", e.backtrace
 end
 
 def records_from(payload)
@@ -172,8 +172,6 @@ def coordinates_from_geojson(geojson)
 end
 
 def center_point(record)
-  return nil unless record.is_a?(Hash)
-
   center = record['center']
   if center.is_a?(Hash)
     lon = float_or_nil(center['lon'] || center['lng'] || center['longitude'])
@@ -220,6 +218,8 @@ rescue ArgumentError
 end
 
 def item_from(record)
+  return nil unless record.is_a?(Hash)
+
   coordinates = center_point(record)
   return nil unless coordinates
 
