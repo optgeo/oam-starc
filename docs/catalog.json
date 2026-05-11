@@ -1,0 +1,64 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "oam-starc",
+  "title": "OAM STARC (SpatioTemporal Asset Resource Catalog)",
+  "description": "A derived, unofficial STARC generated from OpenAerialMap metadata API.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://optgeo.github.io/oam-starc/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://optgeo.github.io/oam-starc/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "items": [
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "sample-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7,
+          35.6
+        ]
+      },
+      "bbox": [
+        139.7,
+        35.6,
+        139.7,
+        35.6
+      ],
+      "properties": {
+        "title": "Sample imagery",
+        "description": "sample record",
+        "datetime": "2025-01-01T00:00:00Z"
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://example.com/meta/sample-1.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata"
+        },
+        "imagery": {
+          "href": "https://example.com/imagery/sample-1.tif",
+          "title": "OpenAerialMap imagery"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-sample-1"
+        }
+      ]
+    }
+  ]
+}

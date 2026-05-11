@@ -1,0 +1,36 @@
+name: update-catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Generate STARC catalog
+        run: ruby scripts/generate_catalog.rb
+
+      - name: Commit updated catalog
+        run: |
+          if git diff --quiet -- docs/catalog.json; then
+            echo "No changes in docs/catalog.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/catalog.json
+          git commit -m "chore: update STARC catalog"
+          git push
