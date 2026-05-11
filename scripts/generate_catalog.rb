@@ -220,7 +220,13 @@ end
 def provider_for(record)
   value = record['provider'] || record.dig('properties', 'provider')
   return nil if value.nil?
-  return value['name'] || value['title'] || value['id'] if value.is_a?(Hash)
+  if value.is_a?(Hash)
+    candidate = value['name'] || value['title'] || value['id']
+    return candidate if candidate.is_a?(String)
+    return candidate.to_s if candidate.is_a?(Numeric)
+
+    return nil
+  end
 
   value
 end
