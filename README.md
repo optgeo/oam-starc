@@ -22,8 +22,8 @@ OAM (OpenAerialMap) の STARC (SpatioTemporal Asset Resource Catalog) を生成�
   - OpenAerialMap metadata API のレコードを STAC Item として内包
   - geometry は center point (`Point`)
   - bbox は point から算出
-  - assets に metadata / imagery へのリンクを設定
-  - `properties` に `provider` / `platform` / `uploaded_at` を保持
+  - assets に metadata / imagery / thumbnail へのリンクを設定
+  - `properties` に `provider` / `platform` / `uploaded_at` / `license` を保持
 
 ## 実装
 
@@ -48,6 +48,8 @@ ruby scripts/generate_catalog.rb
 - `platform` は STAC Item の文脈でも自然な属性のため、キー名をそのまま維持。
 - `provider` と `uploaded_at` は OAM 依存の実務属性として、取得元 API の語彙を崩さずに保持。
 - `uploaded_at` は日時として解釈可能な場合は UTC ISO8601 に正規化し、解釈不能な値は欠落させず文字列として保持。
+- `thumbnail` は画像アセットなので `properties` ではなく `assets.thumbnail` として配置。
+- 追加で実務上利用頻度が高い `license` を `properties` に保持し、ライセンス判定を容易化。
 
 ## 運用
 

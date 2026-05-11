@@ -208,6 +208,13 @@ def imagery_href(record)
   record['url'] || record['image'] || record['imagery'] || record['tms'] || record['tile_url']
 end
 
+def thumbnail_href(record)
+  properties = record['properties']
+  return properties['thumbnail'] if properties.is_a?(Hash) && properties['thumbnail']
+
+  record['thumbnail'] || record['thumbnail_url'] || record['preview']
+end
+
 def datetime_for(record)
   raw = record['acquisition_start'] || record['capture_date'] || record['created_at'] || record['timestamp']
   return nil if raw.nil? || raw.to_s.strip.empty?
@@ -244,6 +251,10 @@ rescue ArgumentError
   raw.to_s
 end
 
+def license_for(record)
+  record['license'] || record.dig('properties', 'license')
+end
+
 def item_from(record)
   return nil unless record.is_a?(Hash)
 
@@ -269,7 +280,8 @@ def item_from(record)
       'datetime' => datetime_for(record),
       'provider' => provider_for(record),
       'platform' => platform_for(record),
-      'uploaded_at' => uploaded_at_for(record)
+      'uploaded_at' => uploaded_at_for(record),
+      'license' => license_for(record)
     },
     'assets' => {}
   }
@@ -284,6 +296,11 @@ def item_from(record)
     'href' => imagery_href(record),
     'title' => 'OpenAerialMap imagery'
   } if imagery_href(record)
+
+  item['assets']['thumbnail'] = {
+    'href' => thumbnail_href(record),
+    'title' => 'OpenAerialMap thumbnail'
+  } if thumbnail_href(record)
 
   item['links'] = [
     {
