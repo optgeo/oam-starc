@@ -75,7 +75,7 @@ def fetch_all_records(url, limit:)
     puts "Fetched page #{log_page}: #{page_records.length} records (accumulated #{records.length})"
 
     reached_last_page = total_pages && page >= total_pages
-    reached_partial_page = total_pages.nil? && page_records.length < response_limit
+    reached_partial_page = page_records.length < response_limit
     break if page_records.empty? || reached_last_page || reached_partial_page
 
     page += 1
