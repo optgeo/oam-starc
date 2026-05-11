@@ -10,14 +10,24 @@ require 'digest'
 API_URL = ENV.fetch('OAM_METADATA_API_URL', 'https://api.openaerialmap.org/meta')
 OUTPUT_PATH = ENV.fetch('STARC_OUTPUT_PATH', File.expand_path('../docs/catalog.json', __dir__))
 CATALOG_URL = ENV.fetch('STARC_CATALOG_URL', 'https://optgeo.github.io/oam-starc/catalog.json')
+raw_api_limit = ENV.fetch('OAM_METADATA_API_LIMIT', '100')
+API_LIMIT = raw_api_limit.to_i.positive? ? raw_api_limit.to_i : 100
 
 
-def fetch_payload(url)
+def fetch_payload(url, page:, limit:)
   uri = URI(url)
+  query = URI.decode_www_form(uri.query.to_s).to_h
+  query['page'] = page.to_s
+  query['limit'] = limit.to_s
+  uri.query = URI.encode_www_form(query)
+
+  puts "Fetching page #{page} with limit #{limit}: #{uri}"
   response = Net::HTTP.get_response(uri)
-  raise "Failed to fetch metadata API: #{response.code} #{response.message}" unless response.is_a?(Net::HTTPSuccess)
+  raise "Failed to fetch metadata API page #{page}: #{response.code} #{response.message}" unless response.is_a?(Net::HTTPSuccess)
 
   JSON.parse(response.body)
+rescue JSON::ParserError => e
+  raise "Failed to parse metadata API response for page #{page}: #{e.message}"
 end
 
 def records_from(payload)
@@ -26,6 +36,81 @@ def records_from(payload)
   return payload['results'] if payload.is_a?(Hash) && payload['results'].is_a?(Array)
 
   []
+end
+
+def positive_integer_or_nil(value)
+  integer = Integer(value)
+  integer.positive? ? integer : nil
+rescue StandardError
+  nil
+end
+
+def metadata_from(payload)
+  return payload['meta'] if payload.is_a?(Hash) && payload['meta'].is_a?(Hash)
+
+  {}
+end
+
+def fetch_all_records(url, limit:)
+  records = []
+  page = 1
+  total_pages = nil
+  response_limit = limit
+
+  loop do
+    payload = fetch_payload(url, page: page, limit: response_limit)
+    page_records = records_from(payload)
+    meta = metadata_from(payload)
+    found = positive_integer_or_nil(meta['found'])
+    response_limit = positive_integer_or_nil(meta['limit']) || response_limit
+    reported_page = positive_integer_or_nil(meta['page'])
+    log_page = reported_page || page
+
+    if total_pages.nil? && found && response_limit
+      total_pages = (found.to_f / response_limit).ceil
+      puts "Pagination metadata: found=#{found}, limit=#{response_limit}, total_pages=#{total_pages}"
+    end
+
+    records.concat(page_records)
+    puts "Fetched page #{log_page}: #{page_records.length} records (accumulated #{records.length})"
+
+    break if page_records.empty?
+    break if total_pages && page >= total_pages
+    break if !total_pages && page_records.length < response_limit
+
+    page += 1
+  end
+
+  records
+end
+
+def stable_record_id(record)
+  return nil unless record.is_a?(Hash)
+
+  candidate = record['uuid'] || record['id'] || record['_id'] || record['slug']
+  return nil if candidate.nil? || candidate.to_s.strip.empty?
+
+  candidate.to_s
+end
+
+def deduplicate_records(records)
+  seen = {}
+  duplicates = 0
+
+  deduped = records.filter_map do |record|
+    id = stable_record_id(record)
+    if id
+      if seen[id]
+        duplicates += 1
+        next
+      end
+      seen[id] = true
+    end
+    record
+  end
+
+  puts "Deduplicated #{duplicates} records by stable identifier" if duplicates.positive?
+  deduped
 end
 
 def float_or_nil(value)
@@ -133,11 +218,13 @@ rescue ArgumentError
 end
 
 def item_from(record)
+  return nil unless record.is_a?(Hash)
+
   coordinates = center_point(record)
   return nil unless coordinates
 
   lon, lat = coordinates
-  id = record['uuid'] || record['id'] || record['_id'] || record['slug'] || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, 16]}"
+  id = stable_record_id(record) || "record-#{Digest::SHA256.hexdigest(record.to_json)[0, 16]}"
 
   item = {
     'type' => 'Feature',
@@ -201,8 +288,7 @@ def build_catalog(items)
   }
 end
 
-payload = fetch_payload(API_URL)
-records = records_from(payload)
+records = deduplicate_records(fetch_all_records(API_URL, limit: API_LIMIT))
 items = records.filter_map { |record| item_from(record) }
 catalog = build_catalog(items)
 
