@@ -49,16 +49,22 @@ ruby scripts/generate_catalog.rb
 | `datetime` | ✅ 必須 | `acquisition_start` 等 | 撮影日時（UTC ISO8601）|
 | `start_datetime` | ✅ 任意 | `acquisition_start` 等 | 撮影開始日時（`end_datetime` が存在する場合のみ付与）|
 | `end_datetime` | ✅ 任意 | `acquisition_end` | 撮影終了日時 |
-| `updated` | ✅ 任意 | `uploaded_at` | メタデータ最終更新日時 |
-| `title` | ✅ 任意 | `title` / `name` | 画像タイトル |
-| `description` | ✅ 任意 | `description` | 説明文 |
-| `platform` | ✅ 任意 | `platform` | 撮影プラットフォーム（UAV 等）|
+| `updated` | ✅ 任意 | `uploaded_at` | メタデータ最終更新日時（UTC ISO8601 に変換できない場合は省略）|
+| `title` | ✅ 任意 | `title` / `name` | 画像タイトル（空白・無効値は省略）|
+| `description` | ✅ 任意 | `description` | 説明文（空白・無効値は省略）|
+| `platform` | ✅ 任意 | `platform` | 撮影プラットフォーム（UAV 等）（空白・無効値は省略）|
 | `gsd` | ✅ 任意 | `gsd` | 地上解像度（m/pixel）|
-| `license` | ✅ 任意 | `license` | ライセンス識別子 |
-| `provider` | OAM 固有 | `provider` | 提供者名 |
+| `license` | ✅ 任意 | `license` | ライセンス識別子（バリデーター安全な識別子に正規化できる場合のみ付与）|
+| `provider` | OAM 固有 | `provider` | 提供者名（空白・無効値は省略）|
 | `eo:bands` | `eo` 拡張 | `properties.bands` | バンド情報（利用可能な場合のみ）|
 
 null になる項目は出力から除去します（`datetime` のみ null を許容）。
+
+**設計方針：valid-first（バリデーション優先）**
+
+コンバーターは「バリデーターを通らないリッチなデータ」より「シンプルでもバリデーターを通るデータ」を優先します。
+任意プロパティはバリデーター安全な値に変換できると確信できる場合のみ出力し、できない場合はそのプロパティを省略します。
+`license` は既知の識別子（`CC-BY-4.0`、`CC-BY-SA-4.0`、`CC0-1.0` 等）に正規化できる場合のみ付与します。
 
 ### STAC Extensions
 
@@ -86,11 +92,11 @@ TMS URL（`{z}/{x}/{y}` を含む）は `overview` ロールとして分類し�
 ### provider / platform / uploaded_at の配置方針
 
 - 3項目は Item ごとに意味を持つため、Catalog 直下ではなく各 Item の `properties` に配置。
-- `platform` は STAC Item の文脈でも自然な属性のため、キー名をそのまま維持。
-- `provider` は OAM 依存の実務属性として、取得元 API の語彙を崩さずに保持。
-- `updated` は STAC 標準フィールドとして `uploaded_at` の値から導出する。
+- `platform` は STAC Item の文脈でも自然な属性のため、キー名をそのまま維持。ただし空白・無効値は省略する。
+- `provider` は OAM 依存の実務属性として保持。ただし文字列として安全な値のみ出力する。
+- `updated` は STAC 標準フィールドとして `uploaded_at` の値から導出する。UTC ISO8601 に変換できない場合は省略する。
 - `thumbnail` は画像アセットなので `properties` ではなく `assets.thumbnail` として配置。
-- 追加で実務上利用頻度が高い `license` を `properties` に保持し、ライセンス判定を容易化。
+- `license` はバリデーター安全な識別子（`^[\w\-\.\+]+$` に一致）に正規化できる場合のみ `properties` に付与する。正規化できない場合は省略する。
 
 ## バリデーション
 
