@@ -357,7 +357,7 @@ def normalized_license_for(record)
   raw = safe_string_or_nil(record['license'] || record.dig('properties', 'license'))
   return nil unless raw
 
-  normalized = LICENSE_NORMALIZATION_MAP[raw.downcase]
+  normalized = LICENSE_NORMALIZATION_MAP[raw.downcase(:ascii)]
   return normalized if normalized
 
   return raw if raw.match?(STAC_LICENSE_TOKEN_RE)
