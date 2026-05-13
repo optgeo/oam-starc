@@ -63518,195 +63518,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/57fa169684ae75bb00ec74fe/0/57fa1a0cb0eae7f3b143a8bc.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.8388671875,
-          20.4345703125
-        ]
-      },
-      "bbox": [
-        -74.8388671875,
-        20.4345703125,
-        -74.8388671875,
-        20.4345703125
-      ],
-      "properties": {
-        "datetime": "2016-06-17T01:00:00Z",
-        "start_datetime": "2016-06-17T01:00:00Z",
-        "end_datetime": "2016-06-17T11:00:00Z",
-        "updated": "2016-10-09T00:00:00Z",
-        "title": "DigitalGlobe 1030010056892D00",
-        "platform": "satellite",
-        "provider": "DigitalGlobe",
-        "gsd": 4.487879136029412e-06
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/57fa169684ae75bb00ec74fe/0/57fa1a0cb0eae7f3b143a8bc_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "http://tiles.openaerialmap.org/57fa169684ae75bb00ec74fe/0/57fa1a0cb0eae7f3b143a8bc/{z}/{x}/{y}.png",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/57fa169684ae75bb00ec74fe/0/57fa1a0cb0eae7f3b143a8bc_thumb.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/57fa169684ae75bb00ec74fe/0/57fa1a0cb0eae7f3b143a8bc.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/57fa20f284ae75bb00ec7506/0/57fa239ab0eae7f3b143a8c3.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.8388671875,
-          20.6982421875
-        ]
-      },
-      "bbox": [
-        -74.8388671875,
-        20.6982421875,
-        -74.8388671875,
-        20.6982421875
-      ],
-      "properties": {
-        "datetime": "2016-06-17T01:00:00Z",
-        "start_datetime": "2016-06-17T01:00:00Z",
-        "end_datetime": "2016-06-17T11:00:00Z",
-        "updated": "2016-10-09T00:00:00Z",
-        "title": "DigitalGlobe 1030010056892D00",
-        "platform": "satellite",
-        "provider": "DigitalGlobe",
-        "gsd": 4.487879136029412e-06
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/57fa20f284ae75bb00ec7506/0/57fa239ab0eae7f3b143a8c3_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "http://tiles.openaerialmap.org/57fa20f284ae75bb00ec7506/0/57fa239ab0eae7f3b143a8c3/{z}/{x}/{y}.png",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/57fa20f284ae75bb00ec7506/0/57fa239ab0eae7f3b143a8c3_thumb.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/57fa20f284ae75bb00ec7506/0/57fa239ab0eae7f3b143a8c3.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/57fa2e3e84ae75bb00ec750d/0/57fa2f27b0eae7f3b143a8c4.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.7509765625,
-          20.6982421875
-        ]
-      },
-      "bbox": [
-        -74.7509765625,
-        20.6982421875,
-        -74.7509765625,
-        20.6982421875
-      ],
-      "properties": {
-        "datetime": "2016-06-17T01:00:00Z",
-        "start_datetime": "2016-06-17T01:00:00Z",
-        "end_datetime": "2016-06-17T11:00:00Z",
-        "updated": "2016-10-09T00:00:00Z",
-        "title": "DigitalGlobe 1030010056892D00",
-        "platform": "satellite",
-        "provider": "DigitalGlobe",
-        "gsd": 4.487879136029412e-06
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/57fa2e3e84ae75bb00ec750d/0/57fa2f27b0eae7f3b143a8c4_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "http://tiles.openaerialmap.org/57fa2e3e84ae75bb00ec750d/0/57fa2f27b0eae7f3b143a8c4/{z}/{x}/{y}.png",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/57fa2e3e84ae75bb00ec750d/0/57fa2f27b0eae7f3b143a8c4_thumb.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/57fa2e3e84ae75bb00ec750d/0/57fa2f27b0eae7f3b143a8c4.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5ef607f38aefa40005354441/0/5ef607f38aefa40005354442.tif",
       "geometry": {
         "type": "Point",
@@ -68059,70 +67870,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.392631999999999,
-          52.6169535
-        ]
-      },
-      "bbox": [
-        13.392631999999999,
-        52.6169535,
-        13.392631999999999,
-        52.6169535
-      ],
-      "properties": {
-        "datetime": "2017-02-08T23:00:00Z",
-        "start_datetime": "2017-02-08T23:00:00Z",
-        "end_datetime": "2017-02-09T00:00:00Z",
-        "updated": "2019-07-05T13:25:49Z",
-        "title": "Spritzhaus",
-        "platform": "uav",
-        "provider": "Beuth Hochschule für Technik - Labor für Photogrammetrie",
-        "license": "CC-BY 4.0",
-        "gsd": 0.0199931097673
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f47141633500006cfc86f/0/5d1f47141633500006cfc870.tif",
       "geometry": {
         "type": "Point",
@@ -68178,6 +67925,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5d1f47141633500006cfc86f/0/5d1f47141633500006cfc870.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.392631999999999,
+          52.6169535
+        ]
+      },
+      "bbox": [
+        13.392631999999999,
+        52.6169535,
+        13.392631999999999,
+        52.6169535
+      ],
+      "properties": {
+        "datetime": "2017-02-08T23:00:00Z",
+        "start_datetime": "2017-02-08T23:00:00Z",
+        "end_datetime": "2017-02-09T00:00:00Z",
+        "updated": "2019-07-05T13:25:49Z",
+        "title": "Spritzhaus",
+        "platform": "uav",
+        "provider": "Beuth Hochschule für Technik - Labor für Photogrammetrie",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0199931097673
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5d1f4fa31633500006cfc872/0/5d1f4fa31633500006cfc873.tif"
         }
       ]
     },
@@ -72594,6 +72405,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/603791d20c174800070d60ce/0/603791d20c174800070d60cf.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/6036474f2cc4ff0008506577/0/6036474f2cc4ff0008506578.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8270615,
+          32.1658685
+        ]
+      },
+      "bbox": [
+        34.8270615,
+        32.1658685,
+        34.8270615,
+        32.1658685
+      ],
+      "properties": {
+        "datetime": "2021-02-23T18:30:00Z",
+        "start_datetime": "2021-02-23T18:30:00Z",
+        "end_datetime": "2021-02-24T12:25:54Z",
+        "updated": "2021-02-24T12:33:40Z",
+        "title": "test",
+        "platform": "satellite",
+        "provider": "abc",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0199986551256
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/6036474f2cc4ff0008506577/0/6036474f2cc4ff0008506578_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6036474f2cc4ff0008506577/0/6036474f2cc4ff0008506578/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/6036474f2cc4ff0008506577/0/6036474f2cc4ff0008506578.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/6036474f2cc4ff0008506577/0/6036474f2cc4ff0008506578.tif"
         }
       ]
     },
@@ -93147,70 +93022,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.159273499999999,
-          48.2637305
-        ]
-      },
-      "bbox": [
-        6.159273499999999,
-        48.2637305,
-        6.159273499999999,
-        48.2637305
-      ],
-      "properties": {
-        "datetime": "2024-09-29T10:00:00Z",
-        "start_datetime": "2024-09-29T10:00:00Z",
-        "end_datetime": "2024-09-29T11:00:00Z",
-        "updated": "2024-10-07T15:02:17Z",
-        "title": "Chantier du ZRDC du Madon (DSM - color)",
-        "platform": "uav",
-        "provider": "Pierre d'Huy",
-        "license": "CC-BY 4.0",
-        "gsd": 0.01999999999999949
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703ee5f327f3c00012b0dfa/0/6703ee5f327f3c00012b0dfb.tif",
       "geometry": {
         "type": "Point",
@@ -93266,6 +93077,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703ee5f327f3c00012b0dfa/0/6703ee5f327f3c00012b0dfb.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.159273499999999,
+          48.2637305
+        ]
+      },
+      "bbox": [
+        6.159273499999999,
+        48.2637305,
+        6.159273499999999,
+        48.2637305
+      ],
+      "properties": {
+        "datetime": "2024-09-29T10:00:00Z",
+        "start_datetime": "2024-09-29T10:00:00Z",
+        "end_datetime": "2024-09-29T11:00:00Z",
+        "updated": "2024-10-07T15:02:17Z",
+        "title": "Chantier du ZRDC du Madon (DSM - color)",
+        "platform": "uav",
+        "provider": "Pierre d'Huy",
+        "license": "CC-BY 4.0",
+        "gsd": 0.01999999999999949
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6703f405327f3c00012b0dfd/0/6703f405327f3c00012b0dfe.tif"
         }
       ]
     },
@@ -94875,70 +94750,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1376465,
-          -16.4964055
-        ]
-      },
-      "bbox": [
-        -68.1376465,
-        -16.4964055,
-        -68.1376465,
-        -16.4964055
-      ],
-      "properties": {
-        "datetime": "2018-04-12T19:00:00Z",
-        "start_datetime": "2018-04-12T19:00:00Z",
-        "end_datetime": "2018-04-12T20:00:00Z",
-        "updated": "2021-09-15T15:24:04Z",
-        "title": "SAN FRANCISCO DSM",
-        "platform": "uav",
-        "provider": "Rodolfo Vargas Chile. Consultor GEÓGRAFO",
-        "license": "CC-BY 4.0",
-        "gsd": 0.02
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/61420bf18ab3f40005221def/0/61420bf18ab3f40005221df0.tif",
       "geometry": {
         "type": "Point",
@@ -94994,6 +94805,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/61420bf18ab3f40005221def/0/61420bf18ab3f40005221df0.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1376465,
+          -16.4964055
+        ]
+      },
+      "bbox": [
+        -68.1376465,
+        -16.4964055,
+        -68.1376465,
+        -16.4964055
+      ],
+      "properties": {
+        "datetime": "2018-04-12T19:00:00Z",
+        "start_datetime": "2018-04-12T19:00:00Z",
+        "end_datetime": "2018-04-12T20:00:00Z",
+        "updated": "2021-09-15T15:24:04Z",
+        "title": "SAN FRANCISCO DSM",
+        "platform": "uav",
+        "provider": "Rodolfo Vargas Chile. Consultor GEÓGRAFO",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/61420fc78ab3f40005221df5/0/61420fc78ab3f40005221df6.tif"
         }
       ]
     },
@@ -99739,70 +99614,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.807039,
-          47.191229500000006
-        ]
-      },
-      "bbox": [
-        27.807039,
-        47.191229500000006,
-        27.807039,
-        47.191229500000006
-      ],
-      "properties": {
-        "datetime": "2020-03-24T22:00:00Z",
-        "start_datetime": "2020-03-24T22:00:00Z",
-        "end_datetime": "2020-03-25T12:24:43Z",
-        "updated": "2020-03-25T14:32:05Z",
-        "title": "Service auto Ungheni DSM",
-        "platform": "uav",
-        "provider": "Lightcyphers",
-        "license": "CC BY-NC 4.0",
-        "gsd": 0.020000246469
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a02482b9c0006178429/0/5e7b6a02482b9c000617842a.tif",
       "geometry": {
         "type": "Point",
@@ -99858,6 +99669,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a02482b9c0006178429/0/5e7b6a02482b9c000617842a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.807039,
+          47.191229500000006
+        ]
+      },
+      "bbox": [
+        27.807039,
+        47.191229500000006,
+        27.807039,
+        47.191229500000006
+      ],
+      "properties": {
+        "datetime": "2020-03-24T22:00:00Z",
+        "start_datetime": "2020-03-24T22:00:00Z",
+        "end_datetime": "2020-03-25T12:24:43Z",
+        "updated": "2020-03-25T14:32:05Z",
+        "title": "Service auto Ungheni DSM",
+        "platform": "uav",
+        "provider": "Lightcyphers",
+        "license": "CC BY-NC 4.0",
+        "gsd": 0.020000246469
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5e7b6a76482b9c000617842b/0/5e7b6a76482b9c000617842c.tif"
         }
       ]
     },
@@ -102043,19 +101918,83 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.764758,
-          47.005964500000005
+          28.7603335,
+          47.0077925
         ]
       },
       "bbox": [
-        28.764758,
-        47.005964500000005,
-        28.764758,
-        47.005964500000005
+        28.7603335,
+        47.0077925,
+        28.7603335,
+        47.0077925
+      ],
+      "properties": {
+        "datetime": "2023-06-21T21:00:00Z",
+        "start_datetime": "2023-06-21T21:00:00Z",
+        "end_datetime": "2023-06-21T22:00:00Z",
+        "updated": "2023-06-27T13:56:41Z",
+        "title": "durlesti",
+        "platform": "aircraft",
+        "provider": "3DATA COLLECT",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020169500000000697
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.76477,
+          47.0077785
+        ]
+      },
+      "bbox": [
+        28.76477,
+        47.0077785,
+        28.76477,
+        47.0077785
       ],
       "properties": {
         "datetime": "2023-06-21T21:00:00Z",
@@ -102070,7 +102009,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -102078,7 +102017,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -102086,7 +102025,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -102097,71 +102036,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.760309499999998,
-          47.004164
-        ]
-      },
-      "bbox": [
-        28.760309499999998,
-        47.004164,
-        28.760309499999998,
-        47.004164
-      ],
-      "properties": {
-        "datetime": "2023-06-21T21:00:00Z",
-        "start_datetime": "2023-06-21T21:00:00Z",
-        "end_datetime": "2023-06-21T22:00:00Z",
-        "updated": "2023-06-27T13:55:35Z",
-        "title": "durlesti",
-        "platform": "aircraft",
-        "provider": "3DATA COLLECT",
-        "license": "CC-BY 4.0",
-        "gsd": 0.020169500000000697
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a.tif"
         }
       ]
     },
@@ -102235,25 +102110,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.7603335,
-          47.0077925
+          28.760309499999998,
+          47.004164
         ]
       },
       "bbox": [
-        28.7603335,
-        47.0077925,
-        28.7603335,
-        47.0077925
+        28.760309499999998,
+        47.004164,
+        28.760309499999998,
+        47.004164
       ],
       "properties": {
         "datetime": "2023-06-21T21:00:00Z",
         "start_datetime": "2023-06-21T21:00:00Z",
         "end_datetime": "2023-06-21T22:00:00Z",
-        "updated": "2023-06-27T13:56:41Z",
+        "updated": "2023-06-27T13:55:35Z",
         "title": "durlesti",
         "platform": "aircraft",
         "provider": "3DATA COLLECT",
@@ -102262,7 +102137,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -102270,7 +102145,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -102278,7 +102153,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -102289,71 +102164,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e13.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.7629865,
-          47.0077845
-        ]
-      },
-      "bbox": [
-        28.7629865,
-        47.0077845,
-        28.7629865,
-        47.0077845
-      ],
-      "properties": {
-        "datetime": "2023-06-21T21:00:00Z",
-        "start_datetime": "2023-06-21T21:00:00Z",
-        "end_datetime": "2023-06-21T22:00:00Z",
-        "updated": "2023-06-27T13:55:43Z",
-        "title": "durlesti",
-        "platform": "aircraft",
-        "provider": "3DATA COLLECT",
-        "license": "CC-BY 4.0",
-        "gsd": 0.020169500000000697
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e15.tif"
         }
       ]
     },
@@ -102491,19 +102302,19 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.76477,
-          47.0077785
+          28.764758,
+          47.005964500000005
         ]
       },
       "bbox": [
-        28.76477,
-        47.0077785,
-        28.76477,
-        47.0077785
+        28.764758,
+        47.005964500000005,
+        28.764758,
+        47.005964500000005
       ],
       "properties": {
         "datetime": "2023-06-21T21:00:00Z",
@@ -102518,7 +102329,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -102526,7 +102337,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -102534,7 +102345,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -102545,7 +102356,71 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1a.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e1c.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7629865,
+          47.0077845
+        ]
+      },
+      "bbox": [
+        28.7629865,
+        47.0077845,
+        28.7629865,
+        47.0077845
+      ],
+      "properties": {
+        "datetime": "2023-06-21T21:00:00Z",
+        "start_datetime": "2023-06-21T21:00:00Z",
+        "end_datetime": "2023-06-21T22:00:00Z",
+        "updated": "2023-06-27T13:55:43Z",
+        "title": "durlesti",
+        "platform": "aircraft",
+        "provider": "3DATA COLLECT",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020169500000000697
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/649ae9e396425f0007266e12/0/649ae9e396425f0007266e16.tif"
         }
       ]
     },
@@ -104594,6 +104469,3846 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6668fa2cf1cf8e0001fb2e5c/0/6668fa2cf1cf8e0001fb2e5d.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ed.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.080518,
+          41.796544999999995
+        ]
+      },
+      "bbox": [
+        -74.080518,
+        41.796544999999995,
+        -74.080518,
+        41.796544999999995
+      ],
+      "properties": {
+        "datetime": "2025-10-03T04:00:00Z",
+        "start_datetime": "2025-10-03T04:00:00Z",
+        "end_datetime": "2025-10-04T03:29:39Z",
+        "updated": "2025-10-04T14:50:42Z",
+        "title": "Dashville/Tillson ",
+        "platform": "uav",
+        "provider": "Robert Howe",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020379999999999416
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ed_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ed/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ed.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ed.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5dc10fc1e116550006abe714/0/5dc10fc1e116550006abe715.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0860105,
+          36.105010500000006
+        ]
+      },
+      "bbox": [
+        140.0860105,
+        36.105010500000006,
+        140.0860105,
+        36.105010500000006
+      ],
+      "properties": {
+        "datetime": "2019-11-05T04:30:00Z",
+        "start_datetime": "2019-11-05T04:30:00Z",
+        "end_datetime": "2019-11-05T04:40:00Z",
+        "updated": "2019-11-05T06:01:08Z",
+        "title": "Tsukuba20191105gsi01",
+        "platform": "uav",
+        "provider": "DRONEBIRD",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0203988754848
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5dc10fc1e116550006abe714/0/5dc10fc1e116550006abe715_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5dc10fc1e116550006abe714/0/5dc10fc1e116550006abe715/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5dc10fc1e116550006abe714/0/5dc10fc1e116550006abe715.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5dc10fc1e116550006abe714/0/5dc10fc1e116550006abe715.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/613bb20418b2fb000574fb75/0/613bb20418b2fb000574fb76.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0690545,
+          39.835597
+        ]
+      },
+      "bbox": [
+        26.0690545,
+        39.835597,
+        26.0690545,
+        39.835597
+      ],
+      "properties": {
+        "datetime": "2019-05-27T21:00:00Z",
+        "start_datetime": "2019-05-27T21:00:00Z",
+        "end_datetime": "2019-05-27T22:00:00Z",
+        "updated": "2021-09-10T19:30:46Z",
+        "title": "Bozcaada",
+        "platform": "uav",
+        "provider": "Bozcaada Belediyesi",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0204
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/613bb20418b2fb000574fb75/0/613bb20418b2fb000574fb76_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/613bb20418b2fb000574fb75/0/613bb20418b2fb000574fb76/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/613bb20418b2fb000574fb75/0/613bb20418b2fb000574fb76.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/613bb20418b2fb000574fb75/0/613bb20418b2fb000574fb76.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/7/67167a4b8f979500014ccb58.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6301845,
+          28.668514000000002
+        ]
+      },
+      "bbox": [
+        80.6301845,
+        28.668514000000002,
+        80.6301845,
+        28.668514000000002
+      ],
+      "properties": {
+        "datetime": "2024-05-27T04:15:00Z",
+        "start_datetime": "2024-05-27T04:15:00Z",
+        "end_datetime": "2024-05-27T05:15:00Z",
+        "updated": "2024-10-21T16:08:00Z",
+        "title": "Manakamana Youth Club, Dhangadhi SMC-12",
+        "platform": "uav",
+        "provider": "Subash Gurung",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020400000000013366
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/7/67167a4b8f979500014ccb58_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/67167a4b8f979500014ccb50/7/67167a4b8f979500014ccb58/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/7/67167a4b8f979500014ccb58.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/7/67167a4b8f979500014ccb58.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/11/67167a4b8f979500014ccb5c.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.633994,
+          28.660359
+        ]
+      },
+      "bbox": [
+        80.633994,
+        28.660359,
+        80.633994,
+        28.660359
+      ],
+      "properties": {
+        "datetime": "2024-05-27T04:15:00Z",
+        "start_datetime": "2024-05-27T04:15:00Z",
+        "end_datetime": "2024-05-27T05:15:00Z",
+        "updated": "2024-10-21T16:07:43Z",
+        "title": "Namuna Youth Club, Dhangadhi SMC-12",
+        "platform": "uav",
+        "provider": "Subash Gurung",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020420000000005295
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/11/67167a4b8f979500014ccb5c_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/67167a4b8f979500014ccb50/11/67167a4b8f979500014ccb5c/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/11/67167a4b8f979500014ccb5c.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/11/67167a4b8f979500014ccb5c.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663babab6049ef00013b8459/0/663babab6049ef00013b845a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6765085,
+          -34.606976
+        ]
+      },
+      "bbox": [
+        -58.6765085,
+        -34.606976,
+        -58.6765085,
+        -34.606976
+      ],
+      "properties": {
+        "datetime": "2024-04-18T03:00:00Z",
+        "start_datetime": "2024-04-18T03:00:00Z",
+        "end_datetime": "2024-04-23T04:00:00Z",
+        "updated": "2024-05-08T16:52:26Z",
+        "title": "Castelar",
+        "platform": "uav",
+        "provider": "Alekrisna",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020423089191516985
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663babab6049ef00013b8459/0/663babab6049ef00013b845a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/663babab6049ef00013b8459/0/663babab6049ef00013b845a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663babab6049ef00013b8459/0/663babab6049ef00013b845a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663babab6049ef00013b8459/0/663babab6049ef00013b845a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f81e4ba671e10001804c47/0/65f81e4ba671e10001804c48.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.163254,
+          41.704222
+        ]
+      },
+      "bbox": [
+        -7.163254,
+        41.704222,
+        -7.163254,
+        41.704222
+      ],
+      "properties": {
+        "datetime": "2024-03-18T00:00:00Z",
+        "start_datetime": "2024-03-18T00:00:00Z",
+        "end_datetime": "2024-03-18T10:36:33Z",
+        "updated": "2024-03-18T11:06:18Z",
+        "title": "Fonte de Vilar de Ouro",
+        "platform": "uav",
+        "provider": "Fernando Wolfango Macedo",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020425620041244135
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f81e4ba671e10001804c47/0/65f81e4ba671e10001804c48_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/65f81e4ba671e10001804c47/0/65f81e4ba671e10001804c48/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f81e4ba671e10001804c47/0/65f81e4ba671e10001804c48.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f81e4ba671e10001804c47/0/65f81e4ba671e10001804c48.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ec.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0844015,
+          41.7999985
+        ]
+      },
+      "bbox": [
+        -74.0844015,
+        41.7999985,
+        -74.0844015,
+        41.7999985
+      ],
+      "properties": {
+        "datetime": "2025-10-03T04:00:00Z",
+        "start_datetime": "2025-10-03T04:00:00Z",
+        "end_datetime": "2025-10-04T03:29:39Z",
+        "updated": "2025-10-04T14:50:48Z",
+        "title": "Dashville/Tillson ",
+        "platform": "uav",
+        "provider": "Robert Howe",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020430000000008372
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ec_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ec/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ec.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e131340ee38fc46c2f90e7/0/68e131340ee38fc46c2f90ec.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/699b22601bc9957bf7ac7c8d/0/699b22601bc9957bf7ac7c8e.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.424913,
+          51.073376499999995
+        ]
+      },
+      "bbox": [
+        4.424913,
+        51.073376499999995,
+        4.424913,
+        51.073376499999995
+      ],
+      "properties": {
+        "datetime": "2026-02-21T23:00:00Z",
+        "start_datetime": "2026-02-21T23:00:00Z",
+        "end_datetime": "2026-02-22T15:34:02Z",
+        "updated": "2026-02-22T15:45:52Z",
+        "title": "BleuBridge",
+        "platform": "uav",
+        "provider": "AirScout",
+        "license": "CC BY-SA 4.0",
+        "gsd": 0.020431087800500656
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/699b22601bc9957bf7ac7c8d/0/699b22601bc9957bf7ac7c8e_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/699b22601bc9957bf7ac7c8d/0/699b22601bc9957bf7ac7c8e/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/699b22601bc9957bf7ac7c8d/0/699b22601bc9957bf7ac7c8e.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/699b22601bc9957bf7ac7c8d/0/699b22601bc9957bf7ac7c8e.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/658de7a5bff11f000103b08d/0/658de7a5bff11f000103b08e.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.92644899999999,
+          -10.651012
+        ]
+      },
+      "bbox": [
+        -74.92644899999999,
+        -10.651012,
+        -74.92644899999999,
+        -10.651012
+      ],
+      "properties": {
+        "datetime": "2023-12-28T05:00:00Z",
+        "start_datetime": "2023-12-28T05:00:00Z",
+        "end_datetime": "2023-12-28T21:10:59Z",
+        "updated": "2023-12-28T21:44:47Z",
+        "title": "Platanillo de Shimaki",
+        "platform": "aircraft",
+        "provider": "Williams CarhEs",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020433500000000784
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/658de7a5bff11f000103b08d/0/658de7a5bff11f000103b08e_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/658de7a5bff11f000103b08d/0/658de7a5bff11f000103b08e/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/658de7a5bff11f000103b08d/0/658de7a5bff11f000103b08e.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/658de7a5bff11f000103b08d/0/658de7a5bff11f000103b08e.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/19/67167a4b8f979500014ccb64.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.652094,
+          28.6729895
+        ]
+      },
+      "bbox": [
+        80.652094,
+        28.6729895,
+        80.652094,
+        28.6729895
+      ],
+      "properties": {
+        "datetime": "2024-05-27T05:15:00Z",
+        "start_datetime": "2024-05-27T05:15:00Z",
+        "end_datetime": "2024-05-27T06:15:00Z",
+        "updated": "2024-10-21T16:09:01Z",
+        "title": "Siddhanath Mabi, Dhangadhi SMC-12",
+        "platform": "uav",
+        "provider": "Subash Gurung ",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020439999999984006
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/19/67167a4b8f979500014ccb64_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/67167a4b8f979500014ccb50/19/67167a4b8f979500014ccb64/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/19/67167a4b8f979500014ccb64.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/19/67167a4b8f979500014ccb64.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/600182fe7aad010005143f82/0/600182fe7aad010005143f83.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10122300000000001,
+          38.7717355
+        ]
+      },
+      "bbox": [
+        -0.10122300000000001,
+        38.7717355,
+        -0.10122300000000001,
+        38.7717355
+      ],
+      "properties": {
+        "datetime": "2021-01-14T23:00:00Z",
+        "start_datetime": "2021-01-14T23:00:00Z",
+        "end_datetime": "2021-01-15T09:00:57Z",
+        "updated": "2021-01-15T11:58:59Z",
+        "title": "Finca Nueva Laguar",
+        "platform": "uav",
+        "provider": "Aeracoop",
+        "license": "CC BY-NC 4.0",
+        "gsd": 0.02046
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/600182fe7aad010005143f82/0/600182fe7aad010005143f83_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/600182fe7aad010005143f82/0/600182fe7aad010005143f83/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/600182fe7aad010005143f82/0/600182fe7aad010005143f83.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/600182fe7aad010005143f82/0/600182fe7aad010005143f83.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6555d46d3aa0a70001316630/0/6555d46d3aa0a70001316631.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.571221000000001,
+          52.729057
+        ]
+      },
+      "bbox": [
+        13.571221000000001,
+        52.729057,
+        13.571221000000001,
+        52.729057
+      ],
+      "properties": {
+        "datetime": "2023-11-11T23:00:00Z",
+        "start_datetime": "2023-11-11T23:00:00Z",
+        "end_datetime": "2023-11-12T17:09:32Z",
+        "updated": "2023-11-16T08:40:27Z",
+        "title": "Woltersdorf 87",
+        "platform": "uav",
+        "provider": "Landesforstbetrieb Brandenburg",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020475000402876167
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6555d46d3aa0a70001316630/0/6555d46d3aa0a70001316631_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6555d46d3aa0a70001316630/0/6555d46d3aa0a70001316631/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6555d46d3aa0a70001316630/0/6555d46d3aa0a70001316631.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6555d46d3aa0a70001316630/0/6555d46d3aa0a70001316631.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/669ecc2e78128a0001441719/0/669ecc2e78128a000144171a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.75749300000001,
+          42.50902
+        ]
+      },
+      "bbox": [
+        -90.75749300000001,
+        42.50902,
+        -90.75749300000001,
+        42.50902
+      ],
+      "properties": {
+        "datetime": "2024-07-22T05:00:00Z",
+        "start_datetime": "2024-07-22T05:00:00Z",
+        "end_datetime": "2024-07-22T06:00:00Z",
+        "updated": "2024-07-22T21:25:46Z",
+        "title": "DupacoAsbury",
+        "platform": "uav",
+        "provider": "Hawkinson Aerial Photography, LLC",
+        "license": "CC BY-NC 4.0",
+        "gsd": 0.020499999999993062
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/669ecc2e78128a0001441719/0/669ecc2e78128a000144171a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/669ecc2e78128a0001441719/0/669ecc2e78128a000144171a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/669ecc2e78128a0001441719/0/669ecc2e78128a000144171a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/669ecc2e78128a0001441719/0/669ecc2e78128a000144171a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/599d8465a260c700113db297/0/7b5ef6e5-f4d8-4e22-8c0c-4f83ef76b4d2.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89852316623714,
+          40.80069147306917
+        ]
+      },
+      "bbox": [
+        -73.89852316623714,
+        40.80069147306917,
+        -73.89852316623714,
+        40.80069147306917
+      ],
+      "properties": {
+        "datetime": "2017-08-19T04:00:00Z",
+        "start_datetime": "2017-08-19T04:00:00Z",
+        "end_datetime": "2017-08-20T03:59:59Z",
+        "updated": "2017-08-23T13:34:30Z",
+        "title": "20170819_NY_North_Brother_Island",
+        "platform": "uav",
+        "provider": "Autonomous Imagery (www.autonomousimagery.com)",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02050000000000839
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/599d8465a260c700113db297/0/7b5ef6e5-f4d8-4e22-8c0c-4f83ef76b4d2_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/599d8465a260c700113db297/0/7b5ef6e5-f4d8-4e22-8c0c-4f83ef76b4d2/{z}/{x}/{y}.png",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/599d8465a260c700113db297/0/7b5ef6e5-f4d8-4e22-8c0c-4f83ef76b4d2_thumb.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/599d8465a260c700113db297/0/7b5ef6e5-f4d8-4e22-8c0c-4f83ef76b4d2.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d5e42e11a1ae0001f7b0b6/0/66d5e42e11a1ae0001f7b0b7.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9923245,
+          53.450445
+        ]
+      },
+      "bbox": [
+        -2.9923245,
+        53.450445,
+        -2.9923245,
+        53.450445
+      ],
+      "properties": {
+        "datetime": "2024-09-02T14:28:29Z",
+        "start_datetime": "2024-09-02T14:28:29Z",
+        "end_datetime": "2024-09-02T15:28:29Z",
+        "updated": "2024-09-02T16:23:13Z",
+        "title": "Salt and Tar - 02/09/2024",
+        "platform": "uav",
+        "provider": "EFP Drone Footage",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020505330563144814
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d5e42e11a1ae0001f7b0b6/0/66d5e42e11a1ae0001f7b0b7_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/66d5e42e11a1ae0001f7b0b6/0/66d5e42e11a1ae0001f7b0b7/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d5e42e11a1ae0001f7b0b6/0/66d5e42e11a1ae0001f7b0b7.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d5e42e11a1ae0001f7b0b6/0/66d5e42e11a1ae0001f7b0b7.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68363c7ad91f2a22490a8c5d/0/68363c7ad91f2a22490a8c5e.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4137935,
+          20.600904999999997
+        ]
+      },
+      "bbox": [
+        -100.4137935,
+        20.600904999999997,
+        -100.4137935,
+        20.600904999999997
+      ],
+      "properties": {
+        "datetime": "2024-09-11T21:00:00Z",
+        "start_datetime": "2024-09-11T21:00:00Z",
+        "end_datetime": "2024-09-11T22:00:00Z",
+        "updated": "2025-05-27T23:40:35Z",
+        "title": "Paseo 5 de Febrero, Querétaro, Mx.",
+        "platform": "uav",
+        "provider": "Abraham Cortés Ronquillo",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02050999999999988
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68363c7ad91f2a22490a8c5d/0/68363c7ad91f2a22490a8c5e_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68363c7ad91f2a22490a8c5d/0/68363c7ad91f2a22490a8c5e/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68363c7ad91f2a22490a8c5d/0/68363c7ad91f2a22490a8c5e.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68363c7ad91f2a22490a8c5d/0/68363c7ad91f2a22490a8c5e.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68365320000ce578cde9c060/0/68365320000ce578cde9c061.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4137935,
+          20.600904999999997
+        ]
+      },
+      "bbox": [
+        -100.4137935,
+        20.600904999999997,
+        -100.4137935,
+        20.600904999999997
+      ],
+      "properties": {
+        "datetime": "2024-09-11T21:00:00Z",
+        "start_datetime": "2024-09-11T21:00:00Z",
+        "end_datetime": "2024-09-11T22:00:00Z",
+        "updated": "2025-05-28T01:11:06Z",
+        "title": "Paseo 5 de Febrero, Querétaro, Mx.",
+        "platform": "uav",
+        "provider": "Abraham Cortés Ronquillo",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02050999999999988
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68365320000ce578cde9c060/0/68365320000ce578cde9c061_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68365320000ce578cde9c060/0/68365320000ce578cde9c061/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68365320000ce578cde9c060/0/68365320000ce578cde9c061.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68365320000ce578cde9c060/0/68365320000ce578cde9c061.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6715e12346882b00012196b8/2/6715e12346882b00012196bb.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.62199749999999,
+          28.7337365
+        ]
+      },
+      "bbox": [
+        80.62199749999999,
+        28.7337365,
+        80.62199749999999,
+        28.7337365
+      ],
+      "properties": {
+        "datetime": "2024-05-26T04:15:00Z",
+        "start_datetime": "2024-05-26T04:15:00Z",
+        "end_datetime": "2024-05-26T05:15:00Z",
+        "updated": "2024-10-21T05:10:49Z",
+        "title": "Bijuliya Tole, Dhangadhi SMC-06",
+        "platform": "uav",
+        "provider": "Subash Gurung",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020520000000011644
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6715e12346882b00012196b8/2/6715e12346882b00012196bb_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6715e12346882b00012196b8/2/6715e12346882b00012196bb/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6715e12346882b00012196b8/2/6715e12346882b00012196bb.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6715e12346882b00012196b8/2/6715e12346882b00012196bb.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/623e49e99a30e4000761806e/0/623e49e99a30e4000761806f.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8768975,
+          35.152205
+        ]
+      },
+      "bbox": [
+        -84.8768975,
+        35.152205,
+        -84.8768975,
+        35.152205
+      ],
+      "properties": {
+        "datetime": "2022-03-24T04:00:00Z",
+        "start_datetime": "2022-03-24T04:00:00Z",
+        "end_datetime": "2022-03-24T05:00:00Z",
+        "updated": "2022-03-25T23:04:47Z",
+        "title": "Euclid Ave SE and 9th St SE in Cleveland, TN (2022/03/24)",
+        "platform": "uav",
+        "provider": "Designing on a juicy cup",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0205255527954
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/623e49e99a30e4000761806e/0/623e49e99a30e4000761806f_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/623e49e99a30e4000761806e/0/623e49e99a30e4000761806f/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/623e49e99a30e4000761806e/0/623e49e99a30e4000761806f.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/623e49e99a30e4000761806e/0/623e49e99a30e4000761806f.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66743d239f0ec400010c5b9f/0/66743d239f0ec400010c5ba0.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.199363,
+          45.123701
+        ]
+      },
+      "bbox": [
+        1.199363,
+        45.123701,
+        1.199363,
+        45.123701
+      ],
+      "properties": {
+        "datetime": "2024-06-19T22:00:00Z",
+        "start_datetime": "2024-06-19T22:00:00Z",
+        "end_datetime": "2024-06-20T12:52:02Z",
+        "updated": "2024-06-20T14:48:18Z",
+        "title": "24FARGZH_zone_1",
+        "platform": "aircraft",
+        "provider": "CEN NA - MD",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020539068552881
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66743d239f0ec400010c5b9f/0/66743d239f0ec400010c5ba0_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/66743d239f0ec400010c5b9f/0/66743d239f0ec400010c5ba0/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66743d239f0ec400010c5b9f/0/66743d239f0ec400010c5ba0.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66743d239f0ec400010c5b9f/0/66743d239f0ec400010c5ba0.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68dd1e9ec99f03bf91649939/0/68dd1e9ec99f03bf9164993a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9569109999999998,
+          13.5838815
+        ]
+      },
+      "bbox": [
+        1.9569109999999998,
+        13.5838815,
+        1.9569109999999998,
+        13.5838815
+      ],
+      "properties": {
+        "datetime": "2024-12-23T23:00:00Z",
+        "start_datetime": "2024-12-23T23:00:00Z",
+        "end_datetime": "2024-12-24T00:00:00Z",
+        "updated": "2025-10-01T12:45:53Z",
+        "title": "Orthomosaic Niamey",
+        "platform": "satellite",
+        "provider": "GeoMinds Africa",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02054873963207673
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68dd1e9ec99f03bf91649939/0/68dd1e9ec99f03bf9164993a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68dd1e9ec99f03bf91649939/0/68dd1e9ec99f03bf9164993a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68dd1e9ec99f03bf91649939/0/68dd1e9ec99f03bf9164993a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68dd1e9ec99f03bf91649939/0/68dd1e9ec99f03bf9164993a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5fc7e25a5c84cf00065a2309/0/5fc7e25a5c84cf00065a230a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.68527950000001,
+          4.7937065
+        ]
+      },
+      "bbox": [
+        -75.68527950000001,
+        4.7937065,
+        -75.68527950000001,
+        4.7937065
+      ],
+      "properties": {
+        "datetime": "2020-12-02T05:00:00Z",
+        "start_datetime": "2020-12-02T05:00:00Z",
+        "end_datetime": "2020-12-02T18:44:26Z",
+        "updated": "2020-12-02T18:54:01Z",
+        "title": "Prueba 1 El Bosque - UTP",
+        "platform": "uav",
+        "provider": "Strategic & Enviromental Services",
+        "license": "CC BY-NC 4.0",
+        "gsd": 0.0205519672557
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fc7e25a5c84cf00065a2309/0/5fc7e25a5c84cf00065a230a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5fc7e25a5c84cf00065a2309/0/5fc7e25a5c84cf00065a230a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fc7e25a5c84cf00065a2309/0/5fc7e25a5c84cf00065a230a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5fc7e25a5c84cf00065a2309/0/5fc7e25a5c84cf00065a230a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d251a311a1ae0001f7b031/1/66d251a311a1ae0001f7b033.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.09965399999999,
+          -2.8090450000000002
+        ]
+      },
+      "bbox": [
+        120.09965399999999,
+        -2.8090450000000002,
+        120.09965399999999,
+        -2.8090450000000002
+      ],
+      "properties": {
+        "datetime": "2024-08-30T16:00:00Z",
+        "start_datetime": "2024-08-30T16:00:00Z",
+        "end_datetime": "2024-08-30T23:07:10Z",
+        "updated": "2024-08-30T23:19:29Z",
+        "title": "Intake PDAM Luwu Walenrang",
+        "platform": "uav",
+        "provider": "Miswar Rasyid",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020552200000005
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d251a311a1ae0001f7b031/1/66d251a311a1ae0001f7b033_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/66d251a311a1ae0001f7b031/1/66d251a311a1ae0001f7b033/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d251a311a1ae0001f7b031/1/66d251a311a1ae0001f7b033.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d251a311a1ae0001f7b031/1/66d251a311a1ae0001f7b033.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5cb9de43761d2e00050690cb/0/5cb9de43761d2e00050690cc.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.150984,
+          -16.5236415
+        ]
+      },
+      "bbox": [
+        -68.150984,
+        -16.5236415,
+        -68.150984,
+        -16.5236415
+      ],
+      "properties": {
+        "datetime": "2019-03-30T04:00:00Z",
+        "start_datetime": "2019-03-30T04:00:00Z",
+        "end_datetime": "2019-03-30T05:00:00Z",
+        "updated": "2019-04-19T14:43:35Z",
+        "title": "Mercado Satélite 2, El Alto, Bolivia",
+        "platform": "uav",
+        "provider": "Rodolfo Vargas Chile",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020560267194
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5cb9de43761d2e00050690cb/0/5cb9de43761d2e00050690cc_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5cb9de43761d2e00050690cb/0/5cb9de43761d2e00050690cc/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5cb9de43761d2e00050690cb/0/5cb9de43761d2e00050690cc.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5cb9de43761d2e00050690cb/0/5cb9de43761d2e00050690cc.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66f547e85b27b10001e4b747/0/66f547e85b27b10001e4b748.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1531605,
+          27.1797855
+        ]
+      },
+      "bbox": [
+        85.1531605,
+        27.1797855,
+        85.1531605,
+        27.1797855
+      ],
+      "properties": {
+        "datetime": "2024-09-25T18:15:00Z",
+        "start_datetime": "2024-09-25T18:15:00Z",
+        "end_datetime": "2024-09-26T11:06:22Z",
+        "updated": "2024-09-26T12:08:01Z",
+        "title": "Nijgadh",
+        "platform": "uav",
+        "provider": "Niroj Karmacharya",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02057000000000322
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66f547e85b27b10001e4b747/0/66f547e85b27b10001e4b748_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/66f547e85b27b10001e4b747/0/66f547e85b27b10001e4b748/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66f547e85b27b10001e4b747/0/66f547e85b27b10001e4b748.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66f547e85b27b10001e4b747/0/66f547e85b27b10001e4b748.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/636ec4f8cf5a2000080231f2/0/636ec4f8cf5a2000080231f3.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5987235,
+          36.783238499999996
+        ]
+      },
+      "bbox": [
+        -2.5987235,
+        36.783238499999996,
+        -2.5987235,
+        36.783238499999996
+      ],
+      "properties": {
+        "datetime": "2022-10-28T19:17:19Z",
+        "start_datetime": "2022-10-28T19:17:19Z",
+        "end_datetime": "2022-10-28T20:17:19Z",
+        "updated": "2022-11-11T21:58:08Z",
+        "title": "Campo Motocross - 28/10/2022",
+        "platform": "uav",
+        "provider": "Healthcare Projects Management",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0205778966346
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/636ec4f8cf5a2000080231f2/0/636ec4f8cf5a2000080231f3_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/636ec4f8cf5a2000080231f2/0/636ec4f8cf5a2000080231f3/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/636ec4f8cf5a2000080231f2/0/636ec4f8cf5a2000080231f3.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/636ec4f8cf5a2000080231f2/0/636ec4f8cf5a2000080231f3.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ef00f841efac0001e4be75/0/64ef00f841efac0001e4be76.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.029834000000001,
+          52.88129
+        ]
+      },
+      "bbox": [
+        14.029834000000001,
+        52.88129,
+        14.029834000000001,
+        52.88129
+      ],
+      "properties": {
+        "datetime": "2023-06-15T22:00:00Z",
+        "start_datetime": "2023-06-15T22:00:00Z",
+        "end_datetime": "2023-06-15T23:00:00Z",
+        "updated": "2023-08-30T08:45:29Z",
+        "title": "Vogelkirsche EXG-Index",
+        "platform": "aircraft",
+        "provider": "Landeskompetenzzentrum Forst Eberswalde",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020606213371953574
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ef00f841efac0001e4be75/0/64ef00f841efac0001e4be76_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64ef00f841efac0001e4be75/0/64ef00f841efac0001e4be76/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ef00f841efac0001e4be75/0/64ef00f841efac0001e4be76.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ef00f841efac0001e4be75/0/64ef00f841efac0001e4be76.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670f066dd6e5200001f83ac8/0/670f066dd6e5200001f83ac9.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6632615,
+          30.333203
+        ]
+      },
+      "bbox": [
+        130.6632615,
+        30.333203,
+        130.6632615,
+        30.333203
+      ],
+      "properties": {
+        "datetime": "2024-08-07T15:00:00Z",
+        "start_datetime": "2024-08-07T15:00:00Z",
+        "end_datetime": "2024-08-07T16:00:00Z",
+        "updated": "2024-10-16T00:33:12Z",
+        "title": "屋久島-船行川海",
+        "platform": "uav",
+        "provider": "Keitaroh Kobayashi",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020608162323930562
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670f066dd6e5200001f83ac8/0/670f066dd6e5200001f83ac9_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/670f066dd6e5200001f83ac8/0/670f066dd6e5200001f83ac9/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670f066dd6e5200001f83ac8/0/670f066dd6e5200001f83ac9.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670f066dd6e5200001f83ac8/0/670f066dd6e5200001f83ac9.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5a8fef8a2553e6000ce5acde/0/aa6bc33f-5405-48eb-bfc5-a478bd6f156c.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.615397082054365,
+          53.8525663413886
+        ]
+      },
+      "bbox": [
+        27.615397082054365,
+        53.8525663413886,
+        27.615397082054365,
+        53.8525663413886
+      ],
+      "properties": {
+        "datetime": "2018-01-26T21:00:00Z",
+        "start_datetime": "2018-01-26T21:00:00Z",
+        "end_datetime": "2018-01-27T20:59:00Z",
+        "updated": "2018-02-23T10:40:12Z",
+        "title": "Malinina_2",
+        "platform": "uav",
+        "provider": "Vitali Danilovich",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02060999999999539
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5a8fef8a2553e6000ce5acde/0/aa6bc33f-5405-48eb-bfc5-a478bd6f156c_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5a8fef8a2553e6000ce5acde/0/aa6bc33f-5405-48eb-bfc5-a478bd6f156c/{z}/{x}/{y}.png",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5a8fef8a2553e6000ce5acde/0/aa6bc33f-5405-48eb-bfc5-a478bd6f156c_thumb.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5a8fef8a2553e6000ce5acde/0/aa6bc33f-5405-48eb-bfc5-a478bd6f156c.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6667069bf1cf8e0001fb2ded/0/6667069bf1cf8e0001fb2dee.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.725731,
+          39.6491635
+        ]
+      },
+      "bbox": [
+        -77.725731,
+        39.6491635,
+        -77.725731,
+        39.6491635
+      ],
+      "properties": {
+        "datetime": "2024-06-10T04:00:00Z",
+        "start_datetime": "2024-06-10T04:00:00Z",
+        "end_datetime": "2024-06-10T13:55:02Z",
+        "updated": "2024-06-10T14:06:34Z",
+        "title": "Salem Ave",
+        "platform": "satellite",
+        "provider": "Cruz Cancel",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020629981871918036
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6667069bf1cf8e0001fb2ded/0/6667069bf1cf8e0001fb2dee_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6667069bf1cf8e0001fb2ded/0/6667069bf1cf8e0001fb2dee/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6667069bf1cf8e0001fb2ded/0/6667069bf1cf8e0001fb2dee.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6667069bf1cf8e0001fb2ded/0/6667069bf1cf8e0001fb2dee.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670ba1e0f815c800012216db/0/670ba1e0f815c800012216dc.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.811204,
+          24.646810000000002
+        ]
+      },
+      "bbox": [
+        121.811204,
+        24.646810000000002,
+        121.811204,
+        24.646810000000002
+      ],
+      "properties": {
+        "datetime": "2024-10-03T16:00:00Z",
+        "start_datetime": "2024-10-03T16:00:00Z",
+        "end_datetime": "2024-10-03T17:00:00Z",
+        "updated": "2024-10-13T10:40:14Z",
+        "title": "宜蘭-冬山-林和源排水",
+        "platform": "aircraft",
+        "provider": "hao",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02063999999999903
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670ba1e0f815c800012216db/0/670ba1e0f815c800012216dc_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/670ba1e0f815c800012216db/0/670ba1e0f815c800012216dc/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670ba1e0f815c800012216db/0/670ba1e0f815c800012216dc.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/670ba1e0f815c800012216db/0/670ba1e0f815c800012216dc.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/59f98d7931eff4000c38053c/0/5572697d-b829-4374-b0f1-77014fd506f2.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.4326054438161,
+          52.7177905218909
+        ]
+      },
+      "bbox": [
+        41.4326054438161,
+        52.7177905218909,
+        41.4326054438161,
+        52.7177905218909
+      ],
+      "properties": {
+        "datetime": "2017-10-30T21:00:00Z",
+        "start_datetime": "2017-10-30T21:00:00Z",
+        "end_datetime": "2017-10-30T22:00:00Z",
+        "updated": "2017-11-01T09:01:47Z",
+        "title": "Maratovskaya street",
+        "platform": "uav",
+        "provider": "lcat",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020641670777999416
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/59f98d7931eff4000c38053c/0/5572697d-b829-4374-b0f1-77014fd506f2_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/59f98d7931eff4000c38053c/0/5572697d-b829-4374-b0f1-77014fd506f2/{z}/{x}/{y}.png",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/59f98d7931eff4000c38053c/0/5572697d-b829-4374-b0f1-77014fd506f2_thumb.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/59f98d7931eff4000c38053c/0/5572697d-b829-4374-b0f1-77014fd506f2.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/20/67167a4b8f979500014ccb65.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6888245,
+          28.6355925
+        ]
+      },
+      "bbox": [
+        80.6888245,
+        28.6355925,
+        80.6888245,
+        28.6355925
+      ],
+      "properties": {
+        "datetime": "2024-05-28T04:15:00Z",
+        "start_datetime": "2024-05-28T04:15:00Z",
+        "end_datetime": "2024-05-28T05:15:00Z",
+        "updated": "2024-10-21T16:07:45Z",
+        "title": "Sivashakti Youth Club, Dhangadhi SMC-14",
+        "platform": "uav",
+        "provider": "Subash Gurung",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020659999999998922
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/20/67167a4b8f979500014ccb65_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/67167a4b8f979500014ccb50/20/67167a4b8f979500014ccb65/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/20/67167a4b8f979500014ccb65.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67167a4b8f979500014ccb50/20/67167a4b8f979500014ccb65.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/696e972004319a9851e752ce/0/696e972004319a9851e752cf.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.625783,
+          32.943766499999995
+        ]
+      },
+      "bbox": [
+        44.625783,
+        32.943766499999995,
+        44.625783,
+        32.943766499999995
+      ],
+      "properties": {
+        "datetime": "2021-12-30T09:45:00Z",
+        "start_datetime": "2021-12-30T09:45:00Z",
+        "end_datetime": "2021-12-30T10:45:00Z",
+        "updated": "2026-01-19T20:51:58Z",
+        "title": "Tell Abu Gafil (تل ابو غافل)",
+        "platform": "uav",
+        "provider": "A. A.",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020674959353371193
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/696e972004319a9851e752ce/0/696e972004319a9851e752cf_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/696e972004319a9851e752ce/0/696e972004319a9851e752cf/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/696e972004319a9851e752ce/0/696e972004319a9851e752cf.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/696e972004319a9851e752ce/0/696e972004319a9851e752cf.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6657b2234aae4f00011eb882/0/6657b2234aae4f00011eb883.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.048228,
+          60.7136885
+        ]
+      },
+      "bbox": [
+        -135.048228,
+        60.7136885,
+        -135.048228,
+        60.7136885
+      ],
+      "properties": {
+        "datetime": "2024-05-08T17:00:00Z",
+        "start_datetime": "2024-05-08T17:00:00Z",
+        "end_datetime": "2024-05-08T18:00:00Z",
+        "updated": "2024-05-29T23:02:40Z",
+        "title": "S.S. Klondike National Historic Site",
+        "platform": "uav",
+        "provider": "Parks Canada",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02067999999999924
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6657b2234aae4f00011eb882/0/6657b2234aae4f00011eb883_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6657b2234aae4f00011eb882/0/6657b2234aae4f00011eb883/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6657b2234aae4f00011eb882/0/6657b2234aae4f00011eb883.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6657b2234aae4f00011eb882/0/6657b2234aae4f00011eb883.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/681e31df98544f10eb617299/0/681e31df98544f10eb61729a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0188345,
+          41.4552745
+        ]
+      },
+      "bbox": [
+        -8.0188345,
+        41.4552745,
+        -8.0188345,
+        41.4552745
+      ],
+      "properties": {
+        "datetime": "2025-05-08T23:00:00Z",
+        "start_datetime": "2025-05-08T23:00:00Z",
+        "end_datetime": "2025-05-09T16:17:53Z",
+        "updated": "2025-05-09T16:59:23Z",
+        "title": "Ribas ",
+        "platform": "aircraft",
+        "provider": "Jfcarvalho1",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020679999999999994
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/681e31df98544f10eb617299/0/681e31df98544f10eb61729a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/681e31df98544f10eb617299/0/681e31df98544f10eb61729a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/681e31df98544f10eb617299/0/681e31df98544f10eb61729a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/681e31df98544f10eb617299/0/681e31df98544f10eb61729a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/664363aa9af9850001610ad3/0/664363aa9af9850001610ad4.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.70011249999999,
+          42.392813000000004
+        ]
+      },
+      "bbox": [
+        -90.70011249999999,
+        42.392813000000004,
+        -90.70011249999999,
+        42.392813000000004
+      ],
+      "properties": {
+        "datetime": "2024-05-13T05:00:00Z",
+        "start_datetime": "2024-05-13T05:00:00Z",
+        "end_datetime": "2024-05-14T04:24:48Z",
+        "updated": "2024-05-14T13:25:28Z",
+        "title": "Dubuque Regional Airport - EAA Chapter 327 Observation Area",
+        "platform": "uav",
+        "provider": "Hawkinson Aerial Photography, LLC",
+        "license": "CC BY-NC 4.0",
+        "gsd": 0.020700000000006966
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/664363aa9af9850001610ad3/0/664363aa9af9850001610ad4_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/664363aa9af9850001610ad3/0/664363aa9af9850001610ad4/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/664363aa9af9850001610ad3/0/664363aa9af9850001610ad4.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/664363aa9af9850001610ad3/0/664363aa9af9850001610ad4.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5e1a33b347dd60000670d782/0/5e1a33b347dd60000670d783.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3398400000000001,
+          42.729753
+        ]
+      },
+      "bbox": [
+        -1.3398400000000001,
+        42.729753,
+        -1.3398400000000001,
+        42.729753
+      ],
+      "properties": {
+        "datetime": "2009-06-28T22:00:00Z",
+        "start_datetime": "2009-06-28T22:00:00Z",
+        "end_datetime": "2009-06-28T23:00:00Z",
+        "updated": "2020-01-11T20:48:01Z",
+        "title": "Artajo",
+        "platform": "uav",
+        "provider": "Unknown",
+        "license": "CC BY-NC 4.0",
+        "gsd": 0.020704
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5e1a33b347dd60000670d782/0/5e1a33b347dd60000670d783_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5e1a33b347dd60000670d782/0/5e1a33b347dd60000670d783/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5e1a33b347dd60000670d782/0/5e1a33b347dd60000670d783.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5e1a33b347dd60000670d782/0/5e1a33b347dd60000670d783.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/2/5fb7b865b07e6300071386e4.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.882052,
+          -15.981538
+        ]
+      },
+      "bbox": [
+        28.882052,
+        -15.981538,
+        28.882052,
+        -15.981538
+      ],
+      "properties": {
+        "datetime": "2018-09-19T23:00:00Z",
+        "start_datetime": "2018-09-19T23:00:00Z",
+        "end_datetime": "2018-09-20T00:00:00Z",
+        "updated": "2020-11-20T13:02:11Z",
+        "title": "Breezers 03 - RGB DSM - September 2018",
+        "platform": "uav",
+        "provider": "ATEC-3D Aerial Drone Solutions",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02071
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/2/5fb7b865b07e6300071386e4_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5fb7b865b07e6300071386e1/2/5fb7b865b07e6300071386e4/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/2/5fb7b865b07e6300071386e4.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/2/5fb7b865b07e6300071386e4.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b855b07e6300071386dc/2/5fb7b855b07e6300071386df.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.882052,
+          -15.981538
+        ]
+      },
+      "bbox": [
+        28.882052,
+        -15.981538,
+        28.882052,
+        -15.981538
+      ],
+      "properties": {
+        "datetime": "2018-09-19T23:00:00Z",
+        "start_datetime": "2018-09-19T23:00:00Z",
+        "end_datetime": "2018-09-20T00:00:00Z",
+        "updated": "2020-11-20T12:59:28Z",
+        "title": "Breezers 03 - RGB DSM - September 2018",
+        "platform": "uav",
+        "provider": "ATEC-3D Aerial Drone Solutions",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02071
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b855b07e6300071386dc/2/5fb7b855b07e6300071386df_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5fb7b855b07e6300071386dc/2/5fb7b855b07e6300071386df/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b855b07e6300071386dc/2/5fb7b855b07e6300071386df.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5fb7b855b07e6300071386dc/2/5fb7b855b07e6300071386df.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/3/5fb7b865b07e6300071386e5.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.882052,
+          -15.981538
+        ]
+      },
+      "bbox": [
+        28.882052,
+        -15.981538,
+        28.882052,
+        -15.981538
+      ],
+      "properties": {
+        "datetime": "2018-03-20T00:00:00Z",
+        "start_datetime": "2018-03-20T00:00:00Z",
+        "end_datetime": "2018-09-20T00:00:00Z",
+        "updated": "2020-11-20T12:47:48Z",
+        "title": "Breezers 04 RGB Transparent Mosaic Group 1",
+        "platform": "uav",
+        "provider": "ATEC-3D Aerial Drone Solutions",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02071
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/3/5fb7b865b07e6300071386e5_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5fb7b865b07e6300071386e1/3/5fb7b865b07e6300071386e5/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/3/5fb7b865b07e6300071386e5.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5fb7b865b07e6300071386e1/3/5fb7b865b07e6300071386e5.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f2ea36df9d1600016b7a4c/0/65f2ea36df9d1600016b7a4d.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.762669,
+          17.007421
+        ]
+      },
+      "bbox": [
+        -61.762669,
+        17.007421,
+        -61.762669,
+        17.007421
+      ],
+      "properties": {
+        "datetime": "2024-03-01T23:00:00Z",
+        "start_datetime": "2024-03-01T23:00:00Z",
+        "end_datetime": "2024-03-02T00:00:00Z",
+        "updated": "2024-03-14T12:23:01Z",
+        "title": "Slipway Antigua",
+        "platform": "uav",
+        "provider": "WTi 360 Ltd",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020710000000002525
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f2ea36df9d1600016b7a4c/0/65f2ea36df9d1600016b7a4d_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/65f2ea36df9d1600016b7a4c/0/65f2ea36df9d1600016b7a4d/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f2ea36df9d1600016b7a4c/0/65f2ea36df9d1600016b7a4d.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/65f2ea36df9d1600016b7a4c/0/65f2ea36df9d1600016b7a4d.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e0729ea6f66607c17f1fb9/1/68e0729ea6f66607c17f1fbc.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0474385,
+          41.831368
+        ]
+      },
+      "bbox": [
+        -74.0474385,
+        41.831368,
+        -74.0474385,
+        41.831368
+      ],
+      "properties": {
+        "datetime": "2025-10-03T04:00:00Z",
+        "start_datetime": "2025-10-03T04:00:00Z",
+        "end_datetime": "2025-10-04T00:59:28Z",
+        "updated": "2025-10-04T01:14:28Z",
+        "title": "Rifton Island ",
+        "platform": "satellite",
+        "provider": "Robert Howe",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020740000000003773
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e0729ea6f66607c17f1fb9/1/68e0729ea6f66607c17f1fbc_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68e0729ea6f66607c17f1fb9/1/68e0729ea6f66607c17f1fbc/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e0729ea6f66607c17f1fb9/1/68e0729ea6f66607c17f1fbc.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e0729ea6f66607c17f1fb9/1/68e0729ea6f66607c17f1fbc.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67f54da464f766dda71a2bcf/0/67f54da464f766dda71a2bd0.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.9107075,
+          63.359619
+        ]
+      },
+      "bbox": [
+        140.9107075,
+        63.359619,
+        140.9107075,
+        63.359619
+      ],
+      "properties": {
+        "datetime": "2021-08-09T22:00:00Z",
+        "start_datetime": "2021-08-09T22:00:00Z",
+        "end_datetime": "2021-08-09T23:00:00Z",
+        "updated": "2025-04-08T16:35:45Z",
+        "title": "Yakutia EN21 2021-08-10",
+        "platform": "uav",
+        "provider": "Robert Jackisch",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020743070044709613
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67f54da464f766dda71a2bcf/0/67f54da464f766dda71a2bd0_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/67f54da464f766dda71a2bcf/0/67f54da464f766dda71a2bd0/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67f54da464f766dda71a2bcf/0/67f54da464f766dda71a2bd0.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/67f54da464f766dda71a2bcf/0/67f54da464f766dda71a2bd0.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64db2d38757cfd0001197ec2/0/64db2d38757cfd0001197ec3.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.685485,
+          24.4172155
+        ]
+      },
+      "bbox": [
+        120.685485,
+        24.4172155,
+        120.685485,
+        24.4172155
+      ],
+      "properties": {
+        "datetime": "2023-08-15T02:30:00Z",
+        "start_datetime": "2023-08-15T02:30:00Z",
+        "end_datetime": "2023-08-15T03:30:00Z",
+        "updated": "2023-08-15T07:48:04Z",
+        "title": "山腳國小",
+        "platform": "uav",
+        "provider": "丁志堅",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020768575384979053
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64db2d38757cfd0001197ec2/0/64db2d38757cfd0001197ec3_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64db2d38757cfd0001197ec2/0/64db2d38757cfd0001197ec3/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64db2d38757cfd0001197ec2/0/64db2d38757cfd0001197ec3.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64db2d38757cfd0001197ec2/0/64db2d38757cfd0001197ec3.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/59f41dbe31eff4000c380510/0/303afe96-2130-473f-b5f5-aaa4a6881e09.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.26487996673798,
+          38.069006814641725
+        ]
+      },
+      "bbox": [
+        -117.26487996673798,
+        38.069006814641725,
+        -117.26487996673798,
+        38.069006814641725
+      ],
+      "properties": {
+        "datetime": "2017-10-06T07:00:00Z",
+        "start_datetime": "2017-10-06T07:00:00Z",
+        "end_datetime": "2017-10-07T06:59:00Z",
+        "updated": "2017-10-28T06:03:43Z",
+        "title": "20171006_NV_Tonopah_Stream_Bed",
+        "platform": "uav",
+        "provider": "Autonomous Imagery ",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02077999999999811
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/59f41dbe31eff4000c380510/0/303afe96-2130-473f-b5f5-aaa4a6881e09_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/59f41dbe31eff4000c380510/0/303afe96-2130-473f-b5f5-aaa4a6881e09/{z}/{x}/{y}.png",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/59f41dbe31eff4000c380510/0/303afe96-2130-473f-b5f5-aaa4a6881e09_thumb.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/59f41dbe31eff4000c380510/0/303afe96-2130-473f-b5f5-aaa4a6881e09.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694a77d9df5aa227820dd859/0/694a77d9df5aa227820dd85a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.930921,
+          25.027751000000002
+        ]
+      },
+      "bbox": [
+        121.930921,
+        25.027751000000002,
+        121.930921,
+        25.027751000000002
+      ],
+      "properties": {
+        "datetime": "2025-12-22T16:00:00Z",
+        "start_datetime": "2025-12-22T16:00:00Z",
+        "end_datetime": "2025-12-22T17:00:00Z",
+        "updated": "2025-12-23T11:20:06Z",
+        "title": "新北-貢寮-貢寮運動公園/龍門社區",
+        "platform": "uav",
+        "provider": "hao",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020780000000000784
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694a77d9df5aa227820dd859/0/694a77d9df5aa227820dd85a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/694a77d9df5aa227820dd859/0/694a77d9df5aa227820dd85a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694a77d9df5aa227820dd859/0/694a77d9df5aa227820dd85a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694a77d9df5aa227820dd859/0/694a77d9df5aa227820dd85a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690b09acf30af1193ef08cde/0/690b09acf30af1193ef08cdf.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7790105,
+          16.3291875
+        ]
+      },
+      "bbox": [
+        76.7790105,
+        16.3291875,
+        76.7790105,
+        16.3291875
+      ],
+      "properties": {
+        "datetime": "2024-11-13T18:30:00Z",
+        "start_datetime": "2024-11-13T18:30:00Z",
+        "end_datetime": "2024-11-14T18:29:00Z",
+        "updated": "2025-11-05T08:42:18Z",
+        "title": "D10-Raichur-Karnataka-2024-11",
+        "platform": "uav",
+        "provider": "WELL Labs - IFMR",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020791486989187334
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690b09acf30af1193ef08cde/0/690b09acf30af1193ef08cdf_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/690b09acf30af1193ef08cde/0/690b09acf30af1193ef08cdf/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690b09acf30af1193ef08cde/0/690b09acf30af1193ef08cdf.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690b09acf30af1193ef08cde/0/690b09acf30af1193ef08cdf.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/6002612c7aad010005143f9a/0/6002612c7aad010005143f9b.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4265125,
+          34.6983765
+        ]
+      },
+      "bbox": [
+        139.4265125,
+        34.6983765,
+        139.4265125,
+        34.6983765
+      ],
+      "properties": {
+        "datetime": "2020-01-01T01:00:00Z",
+        "start_datetime": "2020-01-01T01:00:00Z",
+        "end_datetime": "2020-01-01T02:00:00Z",
+        "updated": "2021-01-16T03:46:34Z",
+        "title": "Sasikiji Izuisalad 2020/12/5",
+        "platform": "aircraft",
+        "provider": "CrisisMappers Japan",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0207964120166
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/6002612c7aad010005143f9a/0/6002612c7aad010005143f9b_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6002612c7aad010005143f9a/0/6002612c7aad010005143f9b/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/6002612c7aad010005143f9a/0/6002612c7aad010005143f9b.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/6002612c7aad010005143f9a/0/6002612c7aad010005143f9b.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66756c481b35ab0001a535cd/0/66756c481b35ab0001a535ce.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9964394999999999,
+          45.213367500000004
+        ]
+      },
+      "bbox": [
+        0.9964394999999999,
+        45.213367500000004,
+        0.9964394999999999,
+        45.213367500000004
+      ],
+      "properties": {
+        "datetime": "2024-06-20T22:00:00Z",
+        "start_datetime": "2024-06-20T22:00:00Z",
+        "end_datetime": "2024-06-21T11:49:04Z",
+        "updated": "2024-06-21T12:16:46Z",
+        "title": "24LAPEPS_2024_zone_1",
+        "platform": "uav",
+        "provider": "CEN NA - MD",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0208130143855237
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66756c481b35ab0001a535cd/0/66756c481b35ab0001a535ce_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/66756c481b35ab0001a535cd/0/66756c481b35ab0001a535ce/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66756c481b35ab0001a535cd/0/66756c481b35ab0001a535ce.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66756c481b35ab0001a535cd/0/66756c481b35ab0001a535ce.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5dc96c4fef892a0006cc15af/0/5dc96c4fef892a0006cc15b0.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.188719000000006,
+          -14.466218999999999
+        ]
+      },
+      "bbox": [
+        -48.188719000000006,
+        -14.466218999999999,
+        -48.188719000000006,
+        -14.466218999999999
+      ],
+      "properties": {
+        "datetime": "2019-10-03T19:30:00Z",
+        "start_datetime": "2019-10-03T19:30:00Z",
+        "end_datetime": "2019-10-03T20:00:00Z",
+        "updated": "2019-11-11T14:13:42Z",
+        "title": "Perfil de Estrada, Niquelândia, Goiás",
+        "platform": "uav",
+        "provider": "Lapig/UFG",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02082
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5dc96c4fef892a0006cc15af/0/5dc96c4fef892a0006cc15b0_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5dc96c4fef892a0006cc15af/0/5dc96c4fef892a0006cc15b0/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5dc96c4fef892a0006cc15af/0/5dc96c4fef892a0006cc15b0.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5dc96c4fef892a0006cc15af/0/5dc96c4fef892a0006cc15b0.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e5ec84ebe9b7512f83e8b8/0/68e5ec84ebe9b7512f83e8b9.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0477985,
+          41.822168500000004
+        ]
+      },
+      "bbox": [
+        -74.0477985,
+        41.822168500000004,
+        -74.0477985,
+        41.822168500000004
+      ],
+      "properties": {
+        "datetime": "2025-10-08T04:00:00Z",
+        "start_datetime": "2025-10-08T04:00:00Z",
+        "end_datetime": "2025-10-08T04:41:09Z",
+        "updated": "2025-10-08T04:56:28Z",
+        "title": "Dashville 10-5",
+        "platform": "uav",
+        "provider": "Robert Howe",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020830000000002114
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e5ec84ebe9b7512f83e8b8/0/68e5ec84ebe9b7512f83e8b9_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68e5ec84ebe9b7512f83e8b8/0/68e5ec84ebe9b7512f83e8b9/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e5ec84ebe9b7512f83e8b8/0/68e5ec84ebe9b7512f83e8b9.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68e5ec84ebe9b7512f83e8b8/0/68e5ec84ebe9b7512f83e8b9.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5fc97f627a0a32000508cc09/0/5fc97f627a0a32000508cc0a.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.570562000000002,
+          53.9539075
+        ]
+      },
+      "bbox": [
+        27.570562000000002,
+        53.9539075,
+        27.570562000000002,
+        53.9539075
+      ],
+      "properties": {
+        "datetime": "2020-06-14T21:00:00Z",
+        "start_datetime": "2020-06-14T21:00:00Z",
+        "end_datetime": "2020-06-14T22:00:00Z",
+        "updated": "2020-12-04T00:16:14Z",
+        "title": "Цна 1",
+        "platform": "uav",
+        "provider": "BSU",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02084
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fc97f627a0a32000508cc09/0/5fc97f627a0a32000508cc0a_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5fc97f627a0a32000508cc09/0/5fc97f627a0a32000508cc0a/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5fc97f627a0a32000508cc09/0/5fc97f627a0a32000508cc0a.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5fc97f627a0a32000508cc09/0/5fc97f627a0a32000508cc0a.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68de123641031d3004ec50f5/0/68de123641031d3004ec50f6.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04095749999999,
+          41.848903
+        ]
+      },
+      "bbox": [
+        -74.04095749999999,
+        41.848903,
+        -74.04095749999999,
+        41.848903
+      ],
+      "properties": {
+        "datetime": "2025-10-02T04:00:00Z",
+        "start_datetime": "2025-10-02T04:00:00Z",
+        "end_datetime": "2025-10-02T05:42:23Z",
+        "updated": "2025-10-02T05:59:45Z",
+        "title": "sp",
+        "platform": "uav",
+        "provider": "Bard College",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02084000000000319
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68de123641031d3004ec50f5/0/68de123641031d3004ec50f6_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/68de123641031d3004ec50f5/0/68de123641031d3004ec50f6/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68de123641031d3004ec50f5/0/68de123641031d3004ec50f6.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68de123641031d3004ec50f5/0/68de123641031d3004ec50f6.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/6326e6929ee90900078a7130/0/6326e6929ee90900078a7131.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.833456,
+          51.6426515
+        ]
+      },
+      "bbox": [
+        -2.833456,
+        51.6426515,
+        -2.833456,
+        51.6426515
+      ],
+      "properties": {
+        "datetime": "2022-09-17T14:11:21Z",
+        "start_datetime": "2022-09-17T14:11:21Z",
+        "end_datetime": "2022-09-17T15:11:21Z",
+        "updated": "2022-09-18T09:38:36Z",
+        "title": "wentwood block 2",
+        "platform": "uav",
+        "provider": "WebODM",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0208571187521
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/6326e6929ee90900078a7130/0/6326e6929ee90900078a7131_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6326e6929ee90900078a7130/0/6326e6929ee90900078a7131/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/6326e6929ee90900078a7130/0/6326e6929ee90900078a7131.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/6326e6929ee90900078a7130/0/6326e6929ee90900078a7131.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a41c8164adbc00012e081c/0/64a41c8164adbc00012e081d.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4679675,
+          35.4933625
+        ]
+      },
+      "bbox": [
+        139.4679675,
+        35.4933625,
+        139.4679675,
+        35.4933625
+      ],
+      "properties": {
+        "datetime": "2023-07-03T04:30:00Z",
+        "start_datetime": "2023-07-03T04:30:00Z",
+        "end_datetime": "2023-07-03T05:00:00Z",
+        "updated": "2023-07-04T13:21:36Z",
+        "title": "yamato20230703hokubujokacenter1334shimoda02p4p02",
+        "platform": "uav",
+        "provider": "DRONEBIRD/CrisisMappersJapan",
+        "license": "CC-BY 4.0",
+        "gsd": 0.020860000000005048
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a41c8164adbc00012e081c/0/64a41c8164adbc00012e081d_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64a41c8164adbc00012e081c/0/64a41c8164adbc00012e081d/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a41c8164adbc00012e081c/0/64a41c8164adbc00012e081d.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a41c8164adbc00012e081c/0/64a41c8164adbc00012e081d.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/60834f372e77e600076c9b8f/0/60834f372e77e600076c9b90.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.759616,
+          33.673691
+        ]
+      },
+      "bbox": [
+        132.759616,
+        33.673691,
+        132.759616,
+        33.673691
+      ],
+      "properties": {
+        "datetime": "2021-04-23T15:00:00Z",
+        "start_datetime": "2021-04-23T15:00:00Z",
+        "end_datetime": "2021-04-23T22:31:20Z",
+        "updated": "2021-04-23T22:51:09Z",
+        "title": "kurira",
+        "platform": "satellite",
+        "provider": "yoshi_iwasa",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0208628995101
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/60834f372e77e600076c9b8f/0/60834f372e77e600076c9b90_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/60834f372e77e600076c9b8f/0/60834f372e77e600076c9b90/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/60834f372e77e600076c9b8f/0/60834f372e77e600076c9b90.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/60834f372e77e600076c9b8f/0/60834f372e77e600076c9b90.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d24fa411a1ae0001f7b02b/3/66d24fa411a1ae0001f7b02f.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2736225,
+          -3.470168
+        ]
+      },
+      "bbox": [
+        120.2736225,
+        -3.470168,
+        120.2736225,
+        -3.470168
+      ],
+      "properties": {
+        "datetime": "2024-08-30T16:00:00Z",
+        "start_datetime": "2024-08-30T16:00:00Z",
+        "end_datetime": "2024-08-30T22:57:32Z",
+        "updated": "2024-08-30T23:11:53Z",
+        "title": "Intake PDAM Luwu Suli Barat",
+        "platform": "uav",
+        "provider": "Miswar Rasyid",
+        "license": "CC-BY 4.0",
+        "gsd": 0.02086320000000117
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d24fa411a1ae0001f7b02b/3/66d24fa411a1ae0001f7b02f_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/66d24fa411a1ae0001f7b02b/3/66d24fa411a1ae0001f7b02f/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d24fa411a1ae0001f7b02b/3/66d24fa411a1ae0001f7b02f.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66d24fa411a1ae0001f7b02b/3/66d24fa411a1ae0001f7b02f.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5d1d2b2c93e1130005fc0ec4/0/5d1d2b2c93e1130005fc0ec5.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5055815,
+          38.593366
+        ]
+      },
+      "bbox": [
+        -121.5055815,
+        38.593366,
+        -121.5055815,
+        38.593366
+      ],
+      "properties": {
+        "datetime": "2019-05-23T05:25:45Z",
+        "start_datetime": "2019-05-23T05:25:45Z",
+        "end_datetime": "2019-05-23T06:25:45Z",
+        "updated": "2019-07-03T22:26:13Z",
+        "title": "Task of 2019-05-24T20:44:52.167Z",
+        "platform": "uav",
+        "provider": "WebODM",
+        "license": "CC-BY 4.0",
+        "gsd": 0.0208914813343
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5d1d2b2c93e1130005fc0ec4/0/5d1d2b2c93e1130005fc0ec5_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5d1d2b2c93e1130005fc0ec4/0/5d1d2b2c93e1130005fc0ec5/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5d1d2b2c93e1130005fc0ec4/0/5d1d2b2c93e1130005fc0ec5.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5d1d2b2c93e1130005fc0ec4/0/5d1d2b2c93e1130005fc0ec5.tif"
         }
       ]
     }
