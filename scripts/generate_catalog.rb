@@ -8,6 +8,24 @@ require 'uri'
 require 'digest'
 
 EO_EXTENSION_URL = 'https://stac-extensions.github.io/eo/v1.0.0/schema.json'
+STAC_LICENSE_TOKEN_RE = /\A[\w\-\.\+]+\z/
+LICENSE_NORMALIZATION_MAP = {
+  'cc-by-4.0'    => 'CC-BY-4.0',
+  'cc by 4.0'    => 'CC-BY-4.0',
+  'cc by-4.0'    => 'CC-BY-4.0',
+  'cc-by 4.0'    => 'CC-BY-4.0',
+  'cc-by-sa-4.0' => 'CC-BY-SA-4.0',
+  'cc by-sa 4.0' => 'CC-BY-SA-4.0',
+  'cc-by-sa 4.0' => 'CC-BY-SA-4.0',
+  'cc by-sa-4.0' => 'CC-BY-SA-4.0',
+  'cc0-1.0'      => 'CC0-1.0',
+  'cc0 1.0'      => 'CC0-1.0',
+  'cc0'          => 'CC0-1.0',
+  'pddl-1.0'     => 'PDDL-1.0',
+  'pddl'         => 'PDDL-1.0',
+  'mit'          => 'MIT',
+  'apache-2.0'   => 'Apache-2.0'
+}.freeze
 
 def positive_integer_or_nil(value)
   integer = Integer(value)
@@ -296,6 +314,13 @@ def stac_extensions_for(record)
   extensions
 end
 
+def safe_string_or_nil(value)
+  return nil if value.nil?
+
+  str = value.to_s.strip
+  str.empty? ? nil : str
+end
+
 def compact_properties(props)
   # Remove nil values from all properties except 'datetime'.
   # Per STAC spec, 'datetime' MUST be present (it may be null only when both
@@ -306,31 +331,38 @@ end
 def provider_for(record)
   value = record['provider'] || record.dig('properties', 'provider')
   return nil if value.nil?
+
   if value.is_a?(Hash)
     candidate = value['name'] || value['title'] || value['id']
-    return candidate if candidate.is_a?(String)
-    return candidate if candidate.is_a?(Numeric) || candidate == true || candidate == false
+    return safe_string_or_nil(candidate)
   end
 
-  value
+  safe_string_or_nil(value)
 end
 
 def platform_for(record)
-  record['platform'] || record.dig('properties', 'platform')
+  safe_string_or_nil(record['platform'] || record.dig('properties', 'platform'))
 end
 
 def uploaded_at_for(record)
   raw = record['uploaded_at'] || record.dig('properties', 'uploaded_at')
   return nil if raw.nil? || raw.to_s.strip.empty?
-  raw_string = raw.to_s
 
-  Time.parse(raw_string).utc.iso8601
+  Time.parse(raw.to_s).utc.iso8601
 rescue ArgumentError
-  raw_string
+  nil
 end
 
-def license_for(record)
-  record['license'] || record.dig('properties', 'license')
+def normalized_license_for(record)
+  raw = safe_string_or_nil(record['license'] || record.dig('properties', 'license'))
+  return nil unless raw
+
+  normalized = LICENSE_NORMALIZATION_MAP[raw.downcase(:ascii)]
+  return normalized if normalized
+
+  return raw if raw.match?(STAC_LICENSE_TOKEN_RE)
+
+  nil
 end
 
 def item_from(record)
@@ -349,8 +381,6 @@ def item_from(record)
   # Compute datetimes once and reuse
   dt = datetime_for(record)
   end_dt = end_datetime_for(record)
-  description = record['description']
-  description = nil if description.is_a?(String) && description.strip.empty?
 
   # Only include start_datetime/end_datetime when a full range is available.
   # Per STAC spec, both fields must be present together when used.
@@ -363,11 +393,11 @@ def item_from(record)
     'start_datetime' => start_dt,
     'end_datetime' => end_dt,
     'updated' => uploaded_at_for(record),
-    'title' => record['title'] || record['name'],
-    'description' => description,
+    'title' => safe_string_or_nil(record['title'] || record['name']),
+    'description' => safe_string_or_nil(record['description']),
     'platform' => platform_for(record),
     'provider' => provider_for(record),
-    'license' => license_for(record),
+    'license' => normalized_license_for(record),
     'gsd' => gsd
   }
   properties['eo:bands'] = bands if bands && !bands.empty?
