@@ -666963,6 +666963,70 @@
       "stac_extensions": [
 
       ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade8f94152b35ab320cc82b/0/6ade8f94152b35ab320cc82c.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.653654,
+          5.0950965
+        ]
+      },
+      "bbox": [
+        -76.653654,
+        5.0950965,
+        -76.653654,
+        5.0950965
+      ],
+      "properties": {
+        "datetime": "2026-10-25T05:00:00Z",
+        "start_datetime": "2026-10-25T05:00:00Z",
+        "end_datetime": "2026-10-25T22:10:58Z",
+        "updated": "2026-10-25T23:32:07Z",
+        "title": "Condoto Centro Norte",
+        "platform": "uav",
+        "provider": "HOT",
+        "license": "CC-BY-4.0",
+        "gsd": 0.07022361777029545
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade8f94152b35ab320cc82b/0/6ade8f94152b35ab320cc82c_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6ade8f94152b35ab320cc82b/0/6ade8f94152b35ab320cc82c/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade8f94152b35ab320cc82b/0/6ade8f94152b35ab320cc82c.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade8f94152b35ab320cc82b/0/6ade8f94152b35ab320cc82c.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5c0a5407f5b3f000054daba6/0/5c0a5407f5b3f000054daba7.tif",
       "geometry": {
         "type": "Point",
@@ -676871,6 +676935,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5d972ac4e2b1f300057cb35e/0/5d972ac4e2b1f300057cb35f.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade7e71152b35ab320cb90e/0/6ade7e71152b35ab320cb90f.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.65764899999999,
+          5.0936520000000005
+        ]
+      },
+      "bbox": [
+        -76.65764899999999,
+        5.0936520000000005,
+        -76.65764899999999,
+        5.0936520000000005
+      ],
+      "properties": {
+        "datetime": "2026-10-25T05:00:00Z",
+        "start_datetime": "2026-10-25T05:00:00Z",
+        "end_datetime": "2026-10-25T18:51:55Z",
+        "updated": "2026-10-25T22:18:26Z",
+        "title": "Condoto Centro Oeste",
+        "platform": "uav",
+        "provider": "HOT",
+        "license": "CC-BY-4.0",
+        "gsd": 0.07172568933171548
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade7e71152b35ab320cb90e/0/6ade7e71152b35ab320cb90f_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6ade7e71152b35ab320cb90e/0/6ade7e71152b35ab320cb90f/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade7e71152b35ab320cb90e/0/6ade7e71152b35ab320cb90f.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6ade7e71152b35ab320cb90e/0/6ade7e71152b35ab320cb90f.tif"
         }
       ]
     },
@@ -759297,69 +759425,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          104.8139765,
-          17.408327
-        ]
-      },
-      "bbox": [
-        104.8139765,
-        17.408327,
-        104.8139765,
-        17.408327
-      ],
-      "properties": {
-        "datetime": "2023-05-04T17:00:00Z",
-        "start_datetime": "2023-05-04T17:00:00Z",
-        "end_datetime": "2023-05-05T01:15:20Z",
-        "updated": "2023-05-05T02:17:23Z",
-        "title": "Thakhek",
-        "platform": "uav",
-        "provider": "BOS",
-        "gsd": 0.1
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/645465335874aa00066577b1/0/645465335874aa00066577b2/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/645460ce5874aa00066577ad/0/645460ce5874aa00066577ae.tif",
       "geometry": {
         "type": "Point",
@@ -759414,6 +759479,69 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/645460ce5874aa00066577ad/0/645460ce5874aa00066577ae.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8139765,
+          17.408327
+        ]
+      },
+      "bbox": [
+        104.8139765,
+        17.408327,
+        104.8139765,
+        17.408327
+      ],
+      "properties": {
+        "datetime": "2023-05-04T17:00:00Z",
+        "start_datetime": "2023-05-04T17:00:00Z",
+        "end_datetime": "2023-05-05T01:15:20Z",
+        "updated": "2023-05-05T02:17:23Z",
+        "title": "Thakhek",
+        "platform": "uav",
+        "provider": "BOS",
+        "gsd": 0.1
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/645465335874aa00066577b1/0/645465335874aa00066577b2/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/645465335874aa00066577b1/0/645465335874aa00066577b2.tif"
         }
       ]
     },
@@ -765695,25 +765823,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aaaf0664adbc00012e0c74/0/64aaaf0664adbc00012e0c7c.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.2049995,
-          -34.9087505
+          -56.324999,
+          -34.758750000000006
         ]
       },
       "bbox": [
-        -56.2049995,
-        -34.9087505,
-        -56.2049995,
-        -34.9087505
+        -56.324999,
+        -34.758750000000006,
+        -56.324999,
+        -34.758750000000006
       ],
       "properties": {
         "datetime": "2021-12-15T03:00:00Z",
         "start_datetime": "2021-12-15T03:00:00Z",
         "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-12T22:44:37Z",
+        "updated": "2023-07-09T13:00:48Z",
         "title": "Montevideo Fotos IM 2021",
         "platform": "aircraft",
         "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
@@ -765722,7 +765850,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aaaf0664adbc00012e0c74/0/64aaaf0664adbc00012e0c7c_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -765730,7 +765858,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/64aaaf0664adbc00012e0c74/0/64aaaf0664adbc00012e0c7c/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -765738,7 +765866,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aaaf0664adbc00012e0c74/0/64aaaf0664adbc00012e0c7c.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -765749,71 +765877,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.205,
-          -34.9012505
-        ]
-      },
-      "bbox": [
-        -56.205,
-        -34.9012505,
-        -56.205,
-        -34.9012505
-      ],
-      "properties": {
-        "datetime": "2021-12-15T03:00:00Z",
-        "start_datetime": "2021-12-15T03:00:00Z",
-        "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-12T22:44:38Z",
-        "title": "Montevideo Fotos IM 2021",
-        "platform": "aircraft",
-        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
-        "license": "CC-BY-4.0",
-        "gsd": 0.1
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aaaf0664adbc00012e0c74/0/64aaaf0664adbc00012e0c7c.tif"
         }
       ]
     },
@@ -766006,6 +766070,134 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aaaf0664adbc00012e0c74/0/64aaaf0664adbc00012e0c97.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.205,
+          -34.9012505
+        ]
+      },
+      "bbox": [
+        -56.205,
+        -34.9012505,
+        -56.205,
+        -34.9012505
+      ],
+      "properties": {
+        "datetime": "2021-12-15T03:00:00Z",
+        "start_datetime": "2021-12-15T03:00:00Z",
+        "end_datetime": "2021-12-15T04:00:00Z",
+        "updated": "2023-07-12T22:44:38Z",
+        "title": "Montevideo Fotos IM 2021",
+        "platform": "aircraft",
+        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
+        "license": "CC-BY-4.0",
+        "gsd": 0.1
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983b.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2049995,
+          -34.9087505
+        ]
+      },
+      "bbox": [
+        -56.2049995,
+        -34.9087505,
+        -56.2049995,
+        -34.9087505
+      ],
+      "properties": {
+        "datetime": "2021-12-15T03:00:00Z",
+        "start_datetime": "2021-12-15T03:00:00Z",
+        "end_datetime": "2021-12-15T04:00:00Z",
+        "updated": "2023-07-12T22:44:37Z",
+        "title": "Montevideo Fotos IM 2021",
+        "platform": "aircraft",
+        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
+        "license": "CC-BY-4.0",
+        "gsd": 0.1
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe119000181983e.tif"
         }
       ]
     },
@@ -777465,134 +777657,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab02e864adbc00012e0d37/0/64ab02e864adbc00012e0d3a.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.164999,
-          -34.7662495
-        ]
-      },
-      "bbox": [
-        -56.164999,
-        -34.7662495,
-        -56.164999,
-        -34.7662495
-      ],
-      "properties": {
-        "datetime": "2021-12-15T03:00:00Z",
-        "start_datetime": "2021-12-15T03:00:00Z",
-        "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-09T18:57:16Z",
-        "title": "Montevideo Fotos IM 2021",
-        "platform": "aircraft",
-        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
-        "license": "CC-BY-4.0",
-        "gsd": 0.10000000000000228
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab02e864adbc00012e0d37/0/64ab02e864adbc00012e0d3a_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/64ab02e864adbc00012e0d37/0/64ab02e864adbc00012e0d3a/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab02e864adbc00012e0d37/0/64ab02e864adbc00012e0d3a.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab02e864adbc00012e0d37/0/64ab02e864adbc00012e0d3a.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d0f.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.174999,
-          -34.758750000000006
-        ]
-      },
-      "bbox": [
-        -56.174999,
-        -34.758750000000006,
-        -56.174999,
-        -34.758750000000006
-      ],
-      "properties": {
-        "datetime": "2021-12-15T03:00:00Z",
-        "start_datetime": "2021-12-15T03:00:00Z",
-        "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-09T18:33:12Z",
-        "title": "Montevideo Fotos IM 2021",
-        "platform": "aircraft",
-        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
-        "license": "CC-BY-4.0",
-        "gsd": 0.10000000000000228
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d0f_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d0f/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d0f.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d0f.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0deb.tif",
       "geometry": {
         "type": "Point",
@@ -783024,134 +783088,6 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e091c.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0930.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.1049995,
-          -34.8262505
-        ]
-      },
-      "bbox": [
-        -56.1049995,
-        -34.8262505,
-        -56.1049995,
-        -34.8262505
-      ],
-      "properties": {
-        "datetime": "2021-12-15T03:00:00Z",
-        "start_datetime": "2021-12-15T03:00:00Z",
-        "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-05T13:28:15Z",
-        "title": "Montevideo Fotos IM 2021",
-        "platform": "satellite",
-        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
-        "license": "CC-BY-4.0",
-        "gsd": 0.10000000000000456
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0930_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0930/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0930.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0930.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0912.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.135,
-          -34.79625
-        ]
-      },
-      "bbox": [
-        -56.135,
-        -34.79625,
-        -56.135,
-        -34.79625
-      ],
-      "properties": {
-        "datetime": "2021-12-15T03:00:00Z",
-        "start_datetime": "2021-12-15T03:00:00Z",
-        "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-05T13:28:15Z",
-        "title": "Montevideo Fotos IM 2021",
-        "platform": "satellite",
-        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
-        "license": "CC-BY-4.0",
-        "gsd": 0.10000000000000456
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0912_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0912/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0912.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a56f5364adbc00012e090c/0/64a56f5364adbc00012e0912.tif"
         }
       ]
     },
@@ -794745,25 +794681,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe1190001819840.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.2049995,
-          -34.76625
+          -56.214999500000005,
+          -34.916250000000005
         ]
       },
       "bbox": [
-        -56.2049995,
-        -34.76625,
-        -56.2049995,
-        -34.76625
+        -56.214999500000005,
+        -34.916250000000005,
+        -56.214999500000005,
+        -34.916250000000005
       ],
       "properties": {
         "datetime": "2021-12-15T03:00:00Z",
         "start_datetime": "2021-12-15T03:00:00Z",
         "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-09T18:32:15Z",
+        "updated": "2023-07-12T22:44:34Z",
         "title": "Montevideo Fotos IM 2021",
         "platform": "aircraft",
         "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
@@ -794772,7 +794708,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe1190001819840_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -794780,7 +794716,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/64af2c62ebe1190001819827/0/64af2c62ebe1190001819840/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -794788,7 +794724,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe1190001819840.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -794799,7 +794735,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2c62ebe1190001819827/0/64af2c62ebe1190001819840.tif"
         }
       ]
     },
@@ -794809,25 +794745,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0de8.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0df7.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
           -56.214999500000005,
-          -34.8037505
+          -34.8187505
         ]
       },
       "bbox": [
         -56.214999500000005,
-        -34.8037505,
+        -34.8187505,
         -56.214999500000005,
-        -34.8037505
+        -34.8187505
       ],
       "properties": {
         "datetime": "2021-12-15T03:00:00Z",
         "start_datetime": "2021-12-15T03:00:00Z",
         "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-09T20:35:41Z",
+        "updated": "2023-07-09T20:36:06Z",
         "title": "Montevideo Fotos IM 2021",
         "platform": "aircraft",
         "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
@@ -794836,7 +794772,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0de8_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0df7_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -794844,7 +794780,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0de8/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0df7/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -794852,7 +794788,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0de8.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0df7.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -794863,7 +794799,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0de8.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64ab19b364adbc00012e0de1/0/64ab19b364adbc00012e0df7.tif"
         }
       ]
     },
@@ -795440,6 +795376,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aeed49ebe1190001819767/0/64aeed49ebe119000181977d.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2049995,
+          -34.76625
+        ]
+      },
+      "bbox": [
+        -56.2049995,
+        -34.76625,
+        -56.2049995,
+        -34.76625
+      ],
+      "properties": {
+        "datetime": "2021-12-15T03:00:00Z",
+        "start_datetime": "2021-12-15T03:00:00Z",
+        "end_datetime": "2021-12-15T04:00:00Z",
+        "updated": "2023-07-09T18:32:15Z",
+        "title": "Montevideo Fotos IM 2021",
+        "platform": "aircraft",
+        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
+        "license": "CC-BY-4.0",
+        "gsd": 0.10000000000001982
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aafcc364adbc00012e0cff/0/64aafcc364adbc00012e0d12.tif"
         }
       ]
     },
@@ -800953,25 +800953,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a7241a64adbc00012e09ec/0/64a7241a64adbc00012e09ef.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
           -56.0449995,
-          -34.77375
+          -34.81125
         ]
       },
       "bbox": [
         -56.0449995,
-        -34.77375,
+        -34.81125,
         -56.0449995,
-        -34.77375
+        -34.81125
       ],
       "properties": {
         "datetime": "2021-12-15T03:00:00Z",
         "start_datetime": "2021-12-15T03:00:00Z",
         "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-05T12:29:15Z",
+        "updated": "2023-07-06T20:30:55Z",
         "title": "Montevideo Fotos IM 2021",
         "platform": "aircraft",
         "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
@@ -800980,7 +800980,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a7241a64adbc00012e09ec/0/64a7241a64adbc00012e09ef_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -800988,7 +800988,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/64a7241a64adbc00012e09ec/0/64a7241a64adbc00012e09ef/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -800996,7 +800996,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a7241a64adbc00012e09ec/0/64a7241a64adbc00012e09ef.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -801007,7 +801007,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a7241a64adbc00012e09ec/0/64a7241a64adbc00012e09ef.tif"
         }
       ]
     },
@@ -801328,6 +801328,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a7241a64adbc00012e09ec/0/64a7241a64adbc00012e09f2.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0449995,
+          -34.77375
+        ]
+      },
+      "bbox": [
+        -56.0449995,
+        -34.77375,
+        -56.0449995,
+        -34.77375
+      ],
+      "properties": {
+        "datetime": "2021-12-15T03:00:00Z",
+        "start_datetime": "2021-12-15T03:00:00Z",
+        "end_datetime": "2021-12-15T04:00:00Z",
+        "updated": "2023-07-05T12:29:15Z",
+        "title": "Montevideo Fotos IM 2021",
+        "platform": "aircraft",
+        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
+        "license": "CC-BY-4.0",
+        "gsd": 0.10000000000003957
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64a561b764adbc00012e08cd/0/64a561b764adbc00012e08e2.tif"
         }
       ]
     },
@@ -807225,25 +807289,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe1190001819728.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
           -56.2449995,
-          -34.84125
+          -34.833749999999995
         ]
       },
       "bbox": [
         -56.2449995,
-        -34.84125,
+        -34.833749999999995,
         -56.2449995,
-        -34.84125
+        -34.833749999999995
       ],
       "properties": {
         "datetime": "2021-12-15T03:00:00Z",
         "start_datetime": "2021-12-15T03:00:00Z",
         "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-12T17:39:30Z",
+        "updated": "2023-07-12T17:39:26Z",
         "title": "Montevideo Fotos IM 2021",
         "platform": "aircraft",
         "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
@@ -807252,7 +807316,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe1190001819728_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -807260,7 +807324,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/64aee4efebe119000181971e/0/64aee4efebe119000181972b/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/64aee4efebe119000181971e/0/64aee4efebe1190001819728/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -807268,7 +807332,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe1190001819728.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -807279,71 +807343,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.2349995,
-          -34.773749499999994
-        ]
-      },
-      "bbox": [
-        -56.2349995,
-        -34.773749499999994,
-        -56.2349995,
-        -34.773749499999994
-      ],
-      "properties": {
-        "datetime": "2021-12-15T03:00:00Z",
-        "start_datetime": "2021-12-15T03:00:00Z",
-        "end_datetime": "2021-12-15T04:00:00Z",
-        "updated": "2023-07-09T17:06:08Z",
-        "title": "Montevideo Fotos IM 2021",
-        "platform": "aircraft",
-        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
-        "license": "CC-BY-4.0",
-        "gsd": 0.10000000000003965
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe1190001819728.tif"
         }
       ]
     },
@@ -807472,6 +807472,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2311ebe11900018197e8/0/64af2311ebe11900018197f2.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2449995,
+          -34.84125
+        ]
+      },
+      "bbox": [
+        -56.2449995,
+        -34.84125,
+        -56.2449995,
+        -34.84125
+      ],
+      "properties": {
+        "datetime": "2021-12-15T03:00:00Z",
+        "start_datetime": "2021-12-15T03:00:00Z",
+        "end_datetime": "2021-12-15T04:00:00Z",
+        "updated": "2023-07-12T17:39:30Z",
+        "title": "Montevideo Fotos IM 2021",
+        "platform": "aircraft",
+        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
+        "license": "CC-BY-4.0",
+        "gsd": 0.10000000000003965
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64aee4efebe119000181971e/0/64aee4efebe119000181972b/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aee4efebe119000181971e/0/64aee4efebe119000181972b.tif"
         }
       ]
     },
@@ -807856,6 +807920,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64af2311ebe11900018197e8/0/64af2311ebe11900018197f5.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2349995,
+          -34.773749499999994
+        ]
+      },
+      "bbox": [
+        -56.2349995,
+        -34.773749499999994,
+        -56.2349995,
+        -34.773749499999994
+      ],
+      "properties": {
+        "datetime": "2021-12-15T03:00:00Z",
+        "start_datetime": "2021-12-15T03:00:00Z",
+        "end_datetime": "2021-12-15T04:00:00Z",
+        "updated": "2023-07-09T17:06:08Z",
+        "title": "Montevideo Fotos IM 2021",
+        "platform": "aircraft",
+        "provider": "Intendencia de Montevideo, Uruguay. (montevideo.gub.uy)",
+        "license": "CC-BY-4.0",
+        "gsd": 0.10000000000003965
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/64aae88064adbc00012e0cd9/0/64aae88064adbc00012e0ce7.tif"
         }
       ]
     },
@@ -877386,26 +877514,26 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e5f53aa0a700013168b5/0/6557e5f53aa0a700013168b6.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.1028245,
-          50.928926000000004
+          -100.1705755,
+          50.793369999999996
         ]
       },
       "bbox": [
-        -100.1028245,
-        50.928926000000004,
-        -100.1028245,
-        50.928926000000004
+        -100.1705755,
+        50.793369999999996,
+        -100.1705755,
+        50.793369999999996
       ],
       "properties": {
-        "datetime": "2020-10-12T05:00:00Z",
-        "start_datetime": "2020-10-12T05:00:00Z",
+        "datetime": "2020-10-26T05:00:00Z",
+        "start_datetime": "2020-10-26T05:00:00Z",
         "end_datetime": "2020-10-26T05:00:00Z",
-        "updated": "2023-11-17T22:35:18Z",
-        "title": "RMNP4205640",
+        "updated": "2023-11-17T22:16:44Z",
+        "title": "RMNP4155625",
         "platform": "aircraft",
         "provider": "Parks Canada",
         "license": "CC-BY-4.0",
@@ -877413,7 +877541,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e5f53aa0a700013168b5/0/6557e5f53aa0a700013168b6_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -877421,7 +877549,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/6557e5f53aa0a700013168b5/0/6557e5f53aa0a700013168b6/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -877429,7 +877557,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e5f53aa0a700013168b5/0/6557e5f53aa0a700013168b6.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -877440,7 +877568,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e5f53aa0a700013168b5/0/6557e5f53aa0a700013168b6.tif"
         }
       ]
     },
@@ -877450,26 +877578,26 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e3503aa0a700013168a1/0/6557e3503aa0a700013168a2.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.8885545,
-          50.885788500000004
+          -100.2415005,
+          50.792637
         ]
       },
       "bbox": [
-        -99.8885545,
-        50.885788500000004,
-        -99.8885545,
-        50.885788500000004
+        -100.2415005,
+        50.792637,
+        -100.2415005,
+        50.792637
       ],
       "properties": {
-        "datetime": "2020-10-26T05:00:00Z",
-        "start_datetime": "2020-10-26T05:00:00Z",
+        "datetime": "2020-10-16T05:00:00Z",
+        "start_datetime": "2020-10-16T05:00:00Z",
         "end_datetime": "2020-10-26T05:00:00Z",
-        "updated": "2023-11-20T22:06:32Z",
-        "title": "RMNP4355635",
+        "updated": "2023-11-17T22:05:18Z",
+        "title": "RMNP4105625",
         "platform": "aircraft",
         "provider": "Parks Canada",
         "license": "CC-BY-4.0",
@@ -877477,7 +877605,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e3503aa0a700013168a1/0/6557e3503aa0a700013168a2_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -877485,7 +877613,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/6557e3503aa0a700013168a1/0/6557e3503aa0a700013168a2/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -877493,7 +877621,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e3503aa0a700013168a1/0/6557e3503aa0a700013168a2.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -877504,7 +877632,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e3503aa0a700013168a1/0/6557e3503aa0a700013168a2.tif"
         }
       ]
     },
@@ -877569,6 +877697,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e6893aa0a700013168b9/0/6557e6893aa0a700013168ba.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.1028245,
+          50.928926000000004
+        ]
+      },
+      "bbox": [
+        -100.1028245,
+        50.928926000000004,
+        -100.1028245,
+        50.928926000000004
+      ],
+      "properties": {
+        "datetime": "2020-10-12T05:00:00Z",
+        "start_datetime": "2020-10-12T05:00:00Z",
+        "end_datetime": "2020-10-26T05:00:00Z",
+        "updated": "2023-11-17T22:35:18Z",
+        "title": "RMNP4205640",
+        "platform": "aircraft",
+        "provider": "Parks Canada",
+        "license": "CC-BY-4.0",
+        "gsd": 0.2
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557ea563aa0a700013168da/0/6557ea563aa0a700013168db.tif"
         }
       ]
     },
@@ -879937,6 +880129,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bdae93aa0a70001316a0a/0/655bdae93aa0a70001316a0b.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.8885545,
+          50.885788500000004
+        ]
+      },
+      "bbox": [
+        -99.8885545,
+        50.885788500000004,
+        -99.8885545,
+        50.885788500000004
+      ],
+      "properties": {
+        "datetime": "2020-10-26T05:00:00Z",
+        "start_datetime": "2020-10-26T05:00:00Z",
+        "end_datetime": "2020-10-26T05:00:00Z",
+        "updated": "2023-11-20T22:06:32Z",
+        "title": "RMNP4355635",
+        "platform": "aircraft",
+        "provider": "Parks Canada",
+        "license": "CC-BY-4.0",
+        "gsd": 0.2
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd8013aa0a700013169e5/0/655bd8013aa0a700013169e6.tif"
         }
       ]
     },
@@ -883658,90 +883914,26 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd21a3aa0a700013169aa/0/655bd21a3aa0a700013169ab.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655be4e13aa0a70001316a4b/0/655be4e13aa0a70001316a4c.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.026748,
-          50.7047935
+          -99.601932,
+          50.70776
         ]
       },
       "bbox": [
-        -100.026748,
-        50.7047935,
-        -100.026748,
-        50.7047935
-      ],
-      "properties": {
-        "datetime": "2020-10-13T05:00:00Z",
-        "start_datetime": "2020-10-13T05:00:00Z",
-        "end_datetime": "2020-10-13T06:00:00Z",
-        "updated": "2023-11-20T22:20:50Z",
-        "title": "RMNP4255615",
-        "platform": "aircraft",
-        "provider": "Parks Canada",
-        "license": "CC-BY-4.0",
-        "gsd": 0.2
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd21a3aa0a700013169aa/0/655bd21a3aa0a700013169ab_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/655bd21a3aa0a700013169aa/0/655bd21a3aa0a700013169ab/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd21a3aa0a700013169aa/0/655bd21a3aa0a700013169ab.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd21a3aa0a700013169aa/0/655bd21a3aa0a700013169ab.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.0964945,
-          50.659191500000006
-        ]
-      },
-      "bbox": [
-        -100.0964945,
-        50.659191500000006,
-        -100.0964945,
-        50.659191500000006
+        -99.601932,
+        50.70776,
+        -99.601932,
+        50.70776
       ],
       "properties": {
         "datetime": "2020-10-13T05:00:00Z",
         "start_datetime": "2020-10-13T05:00:00Z",
         "end_datetime": "2020-10-13T05:00:00Z",
-        "updated": "2023-11-17T22:26:30Z",
-        "title": "RMNP4205610",
+        "updated": "2023-11-20T23:01:22Z",
+        "title": "RMNP4555615",
         "platform": "aircraft",
         "provider": "Parks Canada",
         "license": "CC-BY-4.0",
@@ -883749,7 +883941,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655be4e13aa0a70001316a4b/0/655be4e13aa0a70001316a4c_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -883757,7 +883949,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/655be4e13aa0a70001316a4b/0/655be4e13aa0a70001316a4c/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -883765,7 +883957,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655be4e13aa0a70001316a4b/0/655be4e13aa0a70001316a4c.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -883776,7 +883968,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655be4e13aa0a70001316a4b/0/655be4e13aa0a70001316a4c.tif"
         }
       ]
     },
@@ -884289,6 +884481,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/655bd48e3aa0a700013169bd/0/655bd48e3aa0a700013169be.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.0964945,
+          50.659191500000006
+        ]
+      },
+      "bbox": [
+        -100.0964945,
+        50.659191500000006,
+        -100.0964945,
+        50.659191500000006
+      ],
+      "properties": {
+        "datetime": "2020-10-13T05:00:00Z",
+        "start_datetime": "2020-10-13T05:00:00Z",
+        "end_datetime": "2020-10-13T05:00:00Z",
+        "updated": "2023-11-17T22:26:30Z",
+        "title": "RMNP4205610",
+        "platform": "aircraft",
+        "provider": "Parks Canada",
+        "license": "CC-BY-4.0",
+        "gsd": 0.2
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6557e8583aa0a700013168c8/0/6557e8583aa0a700013168c9.tif"
         }
       ]
     },
@@ -934724,70 +934980,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b1.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.13320350000001,
-          39.766461
-        ]
-      },
-      "bbox": [
-        -105.13320350000001,
-        39.766461,
-        -105.13320350000001,
-        39.766461
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-23T21:07:27Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b1_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b1/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b1.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b1.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c379b.tif",
       "geometry": {
         "type": "Point",
@@ -934843,6 +935035,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c379b.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b5.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11442149999999,
+          39.766401
+        ]
+      },
+      "bbox": [
+        -105.11442149999999,
+        39.766401,
+        -105.11442149999999,
+        39.766401
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-23T21:08:07Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b5_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b5/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b5.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf68a291037900144c3774/0/5bcf68a291037900144c37b5.tif"
         }
       ]
     },
@@ -966404,70 +966660,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39af.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.009854,
-          39.9471915
-        ]
-      },
-      "bbox": [
-        -105.009854,
-        39.9471915,
-        -105.009854,
-        39.9471915
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-23T23:50:18Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39af_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39af/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39af.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39af.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39ba.tif",
       "geometry": {
         "type": "Point",
@@ -966523,6 +966715,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39ba.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39a3.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06634600000001,
+          39.9474125
+        ]
+      },
+      "bbox": [
+        -105.06634600000001,
+        39.9474125,
+        -105.06634600000001,
+        39.9474125
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-23T23:50:57Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39a3_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39a3/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39a3.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a0591037900144c3972/0/5bcf6a0591037900144c39a3.tif"
         }
       ]
     },
@@ -972804,25 +973060,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39e6.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a05.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.0664805,
-          39.925672500000005
+          -105.1136625,
+          39.904095
         ]
       },
       "bbox": [
-        -105.0664805,
-        39.925672500000005,
-        -105.0664805,
-        39.925672500000005
+        -105.1136625,
+        39.904095,
+        -105.1136625,
+        39.904095
       ],
       "properties": {
         "datetime": "2016-01-01T08:00:00Z",
         "start_datetime": "2016-01-01T08:00:00Z",
         "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T00:24:29Z",
+        "updated": "2018-10-24T00:25:10Z",
         "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
         "platform": "aircraft",
         "provider": "Denver Regional Council of Governments",
@@ -972831,7 +973087,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39e6_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a05_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -972839,7 +973095,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39e6/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a05/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -972847,7 +973103,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39e6.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a05.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -972858,7 +973114,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39e6.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a05.tif"
         }
       ]
     },
@@ -972868,25 +973124,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39ff.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a1b.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.1324435,
-          39.911401999999995
+          -105.000697,
+          39.910918499999994
         ]
       },
       "bbox": [
-        -105.1324435,
-        39.911401999999995,
-        -105.1324435,
-        39.911401999999995
+        -105.000697,
+        39.910918499999994,
+        -105.000697,
+        39.910918499999994
       ],
       "properties": {
         "datetime": "2016-01-01T08:00:00Z",
         "start_datetime": "2016-01-01T08:00:00Z",
         "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T00:24:58Z",
+        "updated": "2018-10-24T00:25:12Z",
         "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
         "platform": "aircraft",
         "provider": "Denver Regional Council of Governments",
@@ -972895,7 +973151,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39ff_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a1b_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -972903,7 +973159,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39ff/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a1b/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -972911,7 +973167,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39ff.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a1b.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -972922,7 +973178,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c39ff.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a2791037900144c39d8/0/5bcf6a2791037900144c3a1b.tif"
         }
       ]
     },
@@ -985604,25 +985860,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab1.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3adb.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.90831,
-          39.707565
+          -104.90849349999999,
+          39.685823
         ]
       },
       "bbox": [
-        -104.90831,
-        39.707565,
-        -104.90831,
-        39.707565
+        -104.90849349999999,
+        39.685823,
+        -104.90849349999999,
+        39.685823
       ],
       "properties": {
         "datetime": "2016-01-01T08:00:00Z",
         "start_datetime": "2016-01-01T08:00:00Z",
         "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T01:21:35Z",
+        "updated": "2018-10-24T01:21:53Z",
         "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
         "platform": "aircraft",
         "provider": "Denver Regional Council of Governments",
@@ -985631,7 +985887,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab1_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3adb_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -985639,7 +985895,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab1/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3adb/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -985647,7 +985903,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab1.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3adb.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -985658,7 +985914,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab1.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3adb.tif"
         }
       ]
     },
@@ -985668,25 +985924,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3add.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab0.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.88967,
-          39.692975000000004
+          -104.9176935,
+          39.707612
         ]
       },
       "bbox": [
-        -104.88967,
-        39.692975000000004,
-        -104.88967,
-        39.692975000000004
+        -104.9176935,
+        39.707612,
+        -104.9176935,
+        39.707612
       ],
       "properties": {
         "datetime": "2016-01-01T08:00:00Z",
         "start_datetime": "2016-01-01T08:00:00Z",
         "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T01:21:35Z",
+        "updated": "2018-10-24T01:21:56Z",
         "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
         "platform": "aircraft",
         "provider": "Denver Regional Council of Governments",
@@ -985695,7 +985951,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3add_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab0_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -985703,7 +985959,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3add/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab0/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -985711,7 +985967,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3add.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab0.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -985722,7 +985978,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3add.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6a7591037900144c3aa4/0/5bcf6a7591037900144c3ab0.tif"
         }
       ]
     },
@@ -998276,70 +998532,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3ba3.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.9090425,
-          39.620596
-        ]
-      },
-      "bbox": [
-        -104.9090425,
-        39.620596,
-        -104.9090425,
-        39.620596
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T02:11:55Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3ba3_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3ba3/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3ba3.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3ba3.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3bb1.tif",
       "geometry": {
         "type": "Point",
@@ -998395,6 +998587,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3bb1.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3baa.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8809285,
+          39.6204515
+        ]
+      },
+      "bbox": [
+        -104.8809285,
+        39.6204515,
+        -104.8809285,
+        39.6204515
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-24T02:13:03Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3baa_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3baa/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3baa.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6abc91037900144c3b70/0/5bcf6abc91037900144c3baa.tif"
         }
       ]
     },
@@ -1004676,70 +1004932,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c08.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.777247,
-          39.6778415
-        ]
-      },
-      "bbox": [
-        -104.777247,
-        39.6778415,
-        -104.777247,
-        39.6778415
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T02:36:47Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c08_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c08/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c08.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c08.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3bf9.tif",
       "geometry": {
         "type": "Point",
@@ -1004795,6 +1004987,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3bf9.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c0f.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7491105,
+          39.6776655
+        ]
+      },
+      "bbox": [
+        -104.7491105,
+        39.6776655,
+        -104.7491105,
+        39.6776655
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-24T02:36:54Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c0f_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c0f/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c0f.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6adf91037900144c3bd6/0/5bcf6adf91037900144c3c0f.tif"
         }
       ]
     },
@@ -1011076,70 +1011332,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c46.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.749657,
-          39.626934000000006
-        ]
-      },
-      "bbox": [
-        -104.749657,
-        39.626934000000006,
-        -104.749657,
-        39.626934000000006
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T04:57:19Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c46_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c46/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c46.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c46.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c56.tif",
       "geometry": {
         "type": "Point",
@@ -1011195,6 +1011387,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c56.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c78.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.731132,
+          39.605067500000004
+        ]
+      },
+      "bbox": [
+        -104.731132,
+        39.605067500000004,
+        -104.731132,
+        39.605067500000004
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-24T04:58:14Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c78_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c78/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c78.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b0391037900144c3c3c/0/5bcf6b0391037900144c3c78.tif"
         }
       ]
     },
@@ -1030148,70 +1030404,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3daa.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.021451,
-          39.6283555
-        ]
-      },
-      "bbox": [
-        -105.021451,
-        39.6283555,
-        -105.021451,
-        39.6283555
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T13:24:46Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3daa_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3daa/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3daa.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3daa.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3db0.tif",
       "geometry": {
         "type": "Point",
@@ -1030267,6 +1030459,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3db0.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3da4.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0401495,
+          39.635678
+        ]
+      },
+      "bbox": [
+        -105.0401495,
+        39.635678,
+        -105.0401495,
+        39.635678
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-24T13:30:37Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3da4_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3da4/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3da4.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b6a91037900144c3d6e/0/5bcf6b6a91037900144c3da4.tif"
         }
       ]
     },
@@ -1036548,25 +1036804,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3e00.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3def.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.993595,
-          39.592
+          -105.077861,
+          39.5995805
         ]
       },
       "bbox": [
-        -104.993595,
-        39.592,
-        -104.993595,
-        39.592
+        -105.077861,
+        39.5995805,
+        -105.077861,
+        39.5995805
       ],
       "properties": {
         "datetime": "2016-01-01T08:00:00Z",
         "start_datetime": "2016-01-01T08:00:00Z",
         "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T16:23:08Z",
+        "updated": "2018-10-24T16:23:12Z",
         "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
         "platform": "aircraft",
         "provider": "Denver Regional Council of Governments",
@@ -1036575,7 +1036831,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3e00_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3def_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -1036583,7 +1036839,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3e00/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3def/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -1036591,7 +1036847,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3e00.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3def.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -1036602,7 +1036858,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3e00.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3def.tif"
         }
       ]
     },
@@ -1036612,25 +1036868,25 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dd6.tif",
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dea.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.0121795,
-          39.613822
+          -105.10596749999999,
+          39.599678499999996
         ]
       },
       "bbox": [
-        -105.0121795,
-        39.613822,
-        -105.0121795,
-        39.613822
+        -105.10596749999999,
+        39.599678499999996,
+        -105.10596749999999,
+        39.599678499999996
       ],
       "properties": {
         "datetime": "2016-01-01T08:00:00Z",
         "start_datetime": "2016-01-01T08:00:00Z",
         "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T16:23:08Z",
+        "updated": "2018-10-24T16:23:12Z",
         "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
         "platform": "aircraft",
         "provider": "Denver Regional Council of Governments",
@@ -1036639,7 +1036895,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dd6_meta.json",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dea_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -1036647,7 +1036903,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dd6/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dea/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -1036655,7 +1036911,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dd6.png",
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dea.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -1036666,7 +1036922,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dd6.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6b9191037900144c3dd4/0/5bcf6b9191037900144c3dea.tif"
         }
       ]
     },
@@ -1049220,70 +1049476,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3ee2.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.10617049999999,
-          39.5634395
-        ]
-      },
-      "bbox": [
-        -105.10617049999999,
-        39.5634395,
-        -105.10617049999999,
-        39.5634395
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-24T22:27:08Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3ee2_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3ee2/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3ee2.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3ee2.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3eec.tif",
       "geometry": {
         "type": "Point",
@@ -1049339,6 +1049531,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3eec.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3edd.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1343,
+          39.5562825
+        ]
+      },
+      "bbox": [
+        -105.1343,
+        39.5562825,
+        -105.1343,
+        39.5562825
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-24T22:38:21Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3edd_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3edd/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3edd.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bcf6bd791037900144c3ea0/0/5bcf6bd791037900144c3edd.tif"
         }
       ]
     },
@@ -1074628,70 +1074884,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bc9fdf4f104840007c664dc/0/5bc9fdf4f104840007c664e1.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.97344799999999,
-          39.7803495
-        ]
-      },
-      "bbox": [
-        -104.97344799999999,
-        39.7803495,
-        -104.97344799999999,
-        39.7803495
-      ],
-      "properties": {
-        "datetime": "2016-01-01T08:00:00Z",
-        "start_datetime": "2016-01-01T08:00:00Z",
-        "end_datetime": "2017-01-01T07:59:00Z",
-        "updated": "2018-10-19T16:49:02Z",
-        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
-        "platform": "aircraft",
-        "provider": "Denver Regional Council of Governments",
-        "license": "CC-BY-4.0",
-        "gsd": 0.25
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bc9fdf4f104840007c664dc/0/5bc9fdf4f104840007c664e1_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5bc9fdf4f104840007c664dc/0/5bc9fdf4f104840007c664e1/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bc9fdf4f104840007c664dc/0/5bc9fdf4f104840007c664e1.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bc9fdf4f104840007c664dc/0/5bc9fdf4f104840007c664e1.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bc9fe71f104840007c6653b/0/5bc9fe71f104840007c6653f.tif",
       "geometry": {
         "type": "Point",
@@ -1074747,6 +1074939,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bc9fe71f104840007c6653b/0/5bc9fe71f104840007c6653f.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5bca05e66172dd00078fa14b/0/5bca05e66172dd00078fa152.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97372,
+          39.7441135
+        ]
+      },
+      "bbox": [
+        -104.97372,
+        39.7441135,
+        -104.97372,
+        39.7441135
+      ],
+      "properties": {
+        "datetime": "2016-01-01T08:00:00Z",
+        "start_datetime": "2016-01-01T08:00:00Z",
+        "end_datetime": "2017-01-01T07:59:00Z",
+        "updated": "2018-10-19T16:49:10Z",
+        "title": "Denver Regional Aerial Photography Project - 2016 - 3in - Block 1a",
+        "platform": "aircraft",
+        "provider": "Denver Regional Council of Governments",
+        "license": "CC-BY-4.0",
+        "gsd": 0.25
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bca05e66172dd00078fa14b/0/5bca05e66172dd00078fa152_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5bca05e66172dd00078fa14b/0/5bca05e66172dd00078fa152/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5bca05e66172dd00078fa14b/0/5bca05e66172dd00078fa152.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5bca05e66172dd00078fa14b/0/5bca05e66172dd00078fa152.tif"
         }
       ]
     },
@@ -1093757,34 +1094013,34 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/695ddb579ecfe466a0021a55/0/695ddb579ecfe466a0021a56.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6931aab715333f37971fe354/0/6931aab715333f37971fe355.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.47799499999999,
-          -16.933688
+          -65.580968,
+          -16.659364500000002
         ]
       },
       "bbox": [
-        -65.47799499999999,
-        -16.933688,
-        -65.47799499999999,
-        -16.933688
+        -65.580968,
+        -16.659364500000002,
+        -65.580968,
+        -16.659364500000002
       ],
       "properties": {
         "datetime": "2024-10-15T04:00:00Z",
         "start_datetime": "2024-10-15T04:00:00Z",
         "end_datetime": "2024-10-15T05:00:00Z",
-        "updated": "2026-01-07T04:32:02Z",
-        "title": "Escena 481-6-3 - PLEIADES NIR - ETERAZAMA",
+        "updated": "2025-12-04T15:56:26Z",
+        "title": "Escena 48-6-9 - PLEIADES - ETERAZAMA",
         "platform": "satellite",
         "provider": "Rodolfo Vargas Chile. GEÓGRAFO",
         "license": "CC-BY-4.0",
-        "gsd": 0.2999999999999997
+        "gsd": 0.29999999999999977
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/695ddb579ecfe466a0021a55/0/695ddb579ecfe466a0021a56_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6931aab715333f37971fe354/0/6931aab715333f37971fe355_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -1093792,7 +1094048,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/695ddb579ecfe466a0021a55/0/695ddb579ecfe466a0021a56/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/6931aab715333f37971fe354/0/6931aab715333f37971fe355/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -1093800,7 +1094056,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/695ddb579ecfe466a0021a55/0/695ddb579ecfe466a0021a56.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6931aab715333f37971fe354/0/6931aab715333f37971fe355.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -1093811,7 +1094067,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/695ddb579ecfe466a0021a55/0/695ddb579ecfe466a0021a56.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6931aab715333f37971fe354/0/6931aab715333f37971fe355.tif"
         }
       ]
     },
@@ -1226480,26 +1226736,26 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fa6cf727bd77bb153f21d/0/691fa6cf727bd77bb153f21e.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921de3fd53426051d11438e/0/6921de3fd53426051d11438f.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.65583050000001,
-          -15.373709999999999
+          -63.681912499999996,
+          -17.6316345
         ]
       },
       "bbox": [
-        -67.65583050000001,
-        -15.373709999999999,
-        -67.65583050000001,
-        -15.373709999999999
+        -63.681912499999996,
+        -17.6316345,
+        -63.681912499999996,
+        -17.6316345
       ],
       "properties": {
         "datetime": "2024-10-15T04:00:00Z",
         "start_datetime": "2024-10-15T04:00:00Z",
         "end_datetime": "2024-10-15T05:00:00Z",
-        "updated": "2025-11-20T23:50:43Z",
-        "title": "Escena 35 - PLEIADES - SARARIA",
+        "updated": "2025-11-22T16:09:18Z",
+        "title": "Escena 03 - PLEIADES - EL CARMEN",
         "platform": "satellite",
         "provider": "Rodolfo Vargas Chile. GEÓGRAFO",
         "license": "CC-BY-4.0",
@@ -1226507,7 +1226763,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fa6cf727bd77bb153f21d/0/691fa6cf727bd77bb153f21e_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921de3fd53426051d11438e/0/6921de3fd53426051d11438f_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -1226515,7 +1226771,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/691fa6cf727bd77bb153f21d/0/691fa6cf727bd77bb153f21e/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/6921de3fd53426051d11438e/0/6921de3fd53426051d11438f/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -1226523,7 +1226779,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fa6cf727bd77bb153f21d/0/691fa6cf727bd77bb153f21e.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921de3fd53426051d11438e/0/6921de3fd53426051d11438f.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -1226534,7 +1226790,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fa6cf727bd77bb153f21d/0/691fa6cf727bd77bb153f21e.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921de3fd53426051d11438e/0/6921de3fd53426051d11438f.tif"
         }
       ]
     },
@@ -1226544,26 +1226800,26 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fab6f727bd77bb153f5cc/0/691fab6f727bd77bb153f5cd.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921e442d53426051d115685/0/6921e442d53426051d115686.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.74244,
-          -15.301103
+          -64.6083635,
+          -17.3706465
         ]
       },
       "bbox": [
-        -68.74244,
-        -15.301103,
-        -68.74244,
-        -15.301103
+        -64.6083635,
+        -17.3706465,
+        -64.6083635,
+        -17.3706465
       ],
       "properties": {
         "datetime": "2024-10-15T04:00:00Z",
         "start_datetime": "2024-10-15T04:00:00Z",
         "end_datetime": "2024-10-15T05:00:00Z",
-        "updated": "2025-11-21T00:09:28Z",
-        "title": "Escena 37 - PLEIADES - CAMATA",
+        "updated": "2025-11-22T16:37:34Z",
+        "title": "Escena 03 - PLEIADES - PAMPA VERDE",
         "platform": "satellite",
         "provider": "Rodolfo Vargas Chile. GEÓGRAFO",
         "license": "CC-BY-4.0",
@@ -1226571,7 +1226827,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fab6f727bd77bb153f5cc/0/691fab6f727bd77bb153f5cd_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921e442d53426051d115685/0/6921e442d53426051d115686_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -1226579,7 +1226835,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/691fab6f727bd77bb153f5cc/0/691fab6f727bd77bb153f5cd/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/6921e442d53426051d115685/0/6921e442d53426051d115686/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -1226587,7 +1226843,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fab6f727bd77bb153f5cc/0/691fab6f727bd77bb153f5cd.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921e442d53426051d115685/0/6921e442d53426051d115686.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -1226598,7 +1226854,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/691fab6f727bd77bb153f5cc/0/691fab6f727bd77bb153f5cd.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6921e442d53426051d115685/0/6921e442d53426051d115686.tif"
         }
       ]
     },
@@ -1232752,26 +1233008,26 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef.tif",
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694eea1945bcccdb2bdee08a/0/694eea1945bcccdb2bdee08b.tif",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.361954,
-          -16.795484000000002
+          -64.82623799999999,
+          -16.9765995
         ]
       },
       "bbox": [
-        -64.361954,
-        -16.795484000000002,
-        -64.361954,
-        -16.795484000000002
+        -64.82623799999999,
+        -16.9765995,
+        -64.82623799999999,
+        -16.9765995
       ],
       "properties": {
         "datetime": "2024-10-15T04:00:00Z",
         "start_datetime": "2024-10-15T04:00:00Z",
         "end_datetime": "2024-10-15T05:00:00Z",
-        "updated": "2026-01-01T20:20:40Z",
-        "title": "Escena 33 - PLEIADES NIR - NUEVA EDEN",
+        "updated": "2025-12-26T20:19:09Z",
+        "title": "Escena 11 - PLEIADES NIR - PUERTO VILLARROEL",
         "platform": "satellite",
         "provider": "Rodolfo Vargas Chile. GEÓGRAFO",
         "license": "CC-BY-4.0",
@@ -1232779,7 +1233035,7 @@
       },
       "assets": {
         "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef_meta.json",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694eea1945bcccdb2bdee08a/0/694eea1945bcccdb2bdee08b_meta.json",
           "type": "application/json",
           "title": "OpenAerialMap metadata",
           "roles": [
@@ -1232787,7 +1233043,7 @@
           ]
         },
         "imagery": {
-          "href": "https://tiles.openaerialmap.org/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef/{z}/{x}/{y}",
+          "href": "https://tiles.openaerialmap.org/694eea1945bcccdb2bdee08a/0/694eea1945bcccdb2bdee08b/{z}/{x}/{y}",
           "title": "OpenAerialMap imagery",
           "roles": [
             "overview"
@@ -1232795,7 +1233051,7 @@
           "type": "image/png"
         },
         "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef.png",
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694eea1945bcccdb2bdee08a/0/694eea1945bcccdb2bdee08b.png",
           "title": "OpenAerialMap thumbnail",
           "roles": [
             "thumbnail"
@@ -1232806,7 +1233062,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef.tif"
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/694eea1945bcccdb2bdee08a/0/694eea1945bcccdb2bdee08b.tif"
         }
       ]
     },
@@ -1234471,6 +1234727,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956a37f751c48793e7cfb5b/0/6956a37f751c48793e7cfb5c.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.361954,
+          -16.795484000000002
+        ]
+      },
+      "bbox": [
+        -64.361954,
+        -16.795484000000002,
+        -64.361954,
+        -16.795484000000002
+      ],
+      "properties": {
+        "datetime": "2024-10-15T04:00:00Z",
+        "start_datetime": "2024-10-15T04:00:00Z",
+        "end_datetime": "2024-10-15T05:00:00Z",
+        "updated": "2026-01-01T20:20:40Z",
+        "title": "Escena 33 - PLEIADES NIR - NUEVA EDEN",
+        "platform": "satellite",
+        "provider": "Rodolfo Vargas Chile. GEÓGRAFO",
+        "license": "CC-BY-4.0",
+        "gsd": 0.5
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6956d465751c48793e7d18ee/0/6956d465751c48793e7d18ef.tif"
         }
       ]
     },
@@ -1361838,70 +1362158,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.437454,
-          30.312546
-        ]
-      },
-      "bbox": [
-        79.437454,
-        30.312546,
-        79.437454,
-        30.312546
-      ],
-      "properties": {
-        "datetime": "2024-12-18T18:30:00Z",
-        "start_datetime": "2024-12-18T18:30:00Z",
-        "end_datetime": "2024-12-19T06:44:09Z",
-        "updated": "2024-12-19T06:54:07Z",
-        "title": "india",
-        "platform": "satellite",
-        "provider": "NA",
-        "license": "CC-BY-4.0",
-        "gsd": 10.295840762364564
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1175940cb0001b65bc1/0/6763c1175940cb0001b65bc2.tif",
       "geometry": {
         "type": "Point",
@@ -1361957,6 +1362213,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1175940cb0001b65bc1/0/6763c1175940cb0001b65bc2.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.437454,
+          30.312546
+        ]
+      },
+      "bbox": [
+        79.437454,
+        30.312546,
+        79.437454,
+        30.312546
+      ],
+      "properties": {
+        "datetime": "2024-12-18T18:30:00Z",
+        "start_datetime": "2024-12-18T18:30:00Z",
+        "end_datetime": "2024-12-19T06:44:09Z",
+        "updated": "2024-12-19T06:54:07Z",
+        "title": "india",
+        "platform": "satellite",
+        "provider": "NA",
+        "license": "CC-BY-4.0",
+        "gsd": 10.295840762364564
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6763c1125940cb0001b65bbf/0/6763c1125940cb0001b65bc0.tif"
         }
       ]
     },
@@ -1362222,70 +1362542,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          133.5652425,
-          34.605926999999994
-        ]
-      },
-      "bbox": [
-        133.5652425,
-        34.605926999999994,
-        133.5652425,
-        34.605926999999994
-      ],
-      "properties": {
-        "datetime": "2018-07-08T15:00:00Z",
-        "start_datetime": "2018-07-08T15:00:00Z",
-        "end_datetime": "2018-07-08T16:00:00Z",
-        "updated": "2018-07-10T01:11:57Z",
-        "title": "LANDSAT8 Middle Area of JAPAN 2018",
-        "platform": "satellite",
-        "provider": "NASA, Hiroto Nagai and DRONEBIRD",
-        "license": "CC-BY-4.0",
-        "gsd": 15.0
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958/{z}/{x}/{y}.png",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/5b4406912b6a08001185f953/0/5b4406912b6a08001185f954.tif",
       "geometry": {
         "type": "Point",
@@ -1362341,6 +1362597,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5b4406912b6a08001185f953/0/5b4406912b6a08001185f954.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.5652425,
+          34.605926999999994
+        ]
+      },
+      "bbox": [
+        133.5652425,
+        34.605926999999994,
+        133.5652425,
+        34.605926999999994
+      ],
+      "properties": {
+        "datetime": "2018-07-08T15:00:00Z",
+        "start_datetime": "2018-07-08T15:00:00Z",
+        "end_datetime": "2018-07-08T16:00:00Z",
+        "updated": "2018-07-10T01:11:57Z",
+        "title": "LANDSAT8 Middle Area of JAPAN 2018",
+        "platform": "satellite",
+        "provider": "NASA, Hiroto Nagai and DRONEBIRD",
+        "license": "CC-BY-4.0",
+        "gsd": 15.0
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958/{z}/{x}/{y}.png",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/5b44076c2b6a08001185f957/0/5b44076c2b6a08001185f958.tif"
         }
       ]
     },
@@ -1363945,70 +1364265,6 @@
       "stac_extensions": [
 
       ],
-      "id": "https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4.tif",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.590533,
-          31.220598499999998
-        ]
-      },
-      "bbox": [
-        119.590533,
-        31.220598499999998,
-        119.590533,
-        31.220598499999998
-      ],
-      "properties": {
-        "datetime": "2021-07-24T05:00:00Z",
-        "start_datetime": "2021-07-24T05:00:00Z",
-        "end_datetime": "2021-07-24T08:05:45Z",
-        "updated": "2021-07-24T08:07:48Z",
-        "title": "changsanjiao",
-        "platform": "satellite",
-        "provider": "Complexity",
-        "license": "CC-BY-4.0",
-        "gsd": 1000.0
-      },
-      "assets": {
-        "metadata": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4_meta.json",
-          "type": "application/json",
-          "title": "OpenAerialMap metadata",
-          "roles": [
-            "metadata"
-          ]
-        },
-        "imagery": {
-          "href": "https://tiles.openaerialmap.org/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4/{z}/{x}/{y}",
-          "title": "OpenAerialMap imagery",
-          "roles": [
-            "overview"
-          ],
-          "type": "image/png"
-        },
-        "thumbnail": {
-          "href": "https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4.png",
-          "title": "OpenAerialMap thumbnail",
-          "roles": [
-            "thumbnail"
-          ],
-          "type": "image/png"
-        }
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4.tif"
-        }
-      ]
-    },
-    {
-      "type": "Feature",
-      "stac_version": "1.0.0",
-      "stac_extensions": [
-
-      ],
       "id": "https://oin-hotosm-temp.s3.amazonaws.com/61247198b7012200056b5ca1/0/61247198b7012200056b5ca2.tif",
       "geometry": {
         "type": "Point",
@@ -1364064,6 +1364320,70 @@
         {
           "rel": "self",
           "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/61247198b7012200056b5ca1/0/61247198b7012200056b5ca2.tif"
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+
+      ],
+      "id": "https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4.tif",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.590533,
+          31.220598499999998
+        ]
+      },
+      "bbox": [
+        119.590533,
+        31.220598499999998,
+        119.590533,
+        31.220598499999998
+      ],
+      "properties": {
+        "datetime": "2021-07-24T05:00:00Z",
+        "start_datetime": "2021-07-24T05:00:00Z",
+        "end_datetime": "2021-07-24T08:05:45Z",
+        "updated": "2021-07-24T08:07:48Z",
+        "title": "changsanjiao",
+        "platform": "satellite",
+        "provider": "Complexity",
+        "license": "CC-BY-4.0",
+        "gsd": 1000.0
+      },
+      "assets": {
+        "metadata": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4_meta.json",
+          "type": "application/json",
+          "title": "OpenAerialMap metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "imagery": {
+          "href": "https://tiles.openaerialmap.org/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4/{z}/{x}/{y}",
+          "title": "OpenAerialMap imagery",
+          "roles": [
+            "overview"
+          ],
+          "type": "image/png"
+        },
+        "thumbnail": {
+          "href": "https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4.png",
+          "title": "OpenAerialMap thumbnail",
+          "roles": [
+            "thumbnail"
+          ],
+          "type": "image/png"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://optgeo.github.io/oam-starc/catalog.json#item-https://oin-hotosm-temp.s3.amazonaws.com/60fbca155a90f10006fd2fc3/0/60fbca155a90f10006fd2fc4.tif"
         }
       ]
     },
